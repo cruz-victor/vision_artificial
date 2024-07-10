@@ -38,3 +38,5 @@ print("Bucle terminado")
 duplicates_numbers=[x*2 for x in numbers]
 print(duplicates_numbers)
 print("Bucle terminado")
+
+

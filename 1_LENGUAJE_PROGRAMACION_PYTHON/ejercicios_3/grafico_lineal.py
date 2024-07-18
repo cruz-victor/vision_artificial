@@ -5,7 +5,7 @@ import seaborn as sns
 #Leer csd de pedos
 df=pd.read_csv("ejercicios_3\\pedos.csv")
 
-#Crear grafico de barras
+#Crear grafico de lineas
 sns.lineplot(x="fecha", y="pedos", data=df)
 
 #Crear un punto del pedo mayor

@@ -5,8 +5,15 @@ def sumar_dos_numeros():
         try:
             resultado=int(numero_1)+int(numero_2)
             break
-        except:
-            print("Te pedi un numero tonto.")   
+        except ValueError as v:
+            print("Excepcion: error de valor")
+        except ZeroDivisionError as d:
+            print("Excepcion: division entre cero")    
+        except Exception as e:
+            print("Te pedi un numero tonto. ")
+            print(f"Excepcion general: {e}")        
+        finally:
+            print("El finally se ejecuta siempre")   
     return resultado
 
 print(sumar_dos_numeros()) 

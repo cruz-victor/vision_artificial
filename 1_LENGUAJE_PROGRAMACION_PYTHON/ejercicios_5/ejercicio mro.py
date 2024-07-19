@@ -24,3 +24,5 @@ pato=Ave()
 pato.comer()
 pato.volar()
 #pato.amamantar() #No es posible, el pato no amamanta
+
+print(Murcielado.mro())

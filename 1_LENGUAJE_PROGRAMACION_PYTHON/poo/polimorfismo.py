@@ -2,9 +2,10 @@
 #Mismo mensaje pero resultado diferentes
 #Tipos de polimorfismo
     #Polimorfismo llamada a un metodo
-    #Polimorfismo de metodo
+    #Polimorfismo parametro de metodo
 
 #El polimorfismo en otros lenguajes se realiza con herencia o interfaces    
+#En Python no es necesario la herencia o interfaces para implementar polimorfismo
 #A un animal pedirle que haga un sonido. El perro ladrara, el gato maullara, el pato cacaraqueara, etc
 #Estandariaza la llamada de metodos, clases flexibles
 

@@ -23,3 +23,5 @@ d=D()
 d.hablar()        
 #Llamar metodo hablar de la clase especifica A
 A.hablar(d)
+#Mostrar el orden de resolucion de clases
+print(D.mro())

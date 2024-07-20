@@ -45,6 +45,8 @@ class Trabajador(Persona):
     def presentarse(self):
         print("Hola soy trabajador.")
 
+
+
 print("--------------MAIN------------")
 victor = Estudiante("Victor",25,"Masculino","Programacion")
 victor.presentarse()

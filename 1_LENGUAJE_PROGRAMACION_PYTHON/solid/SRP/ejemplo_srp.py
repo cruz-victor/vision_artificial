@@ -35,4 +35,3 @@ class Email_Service:
 class Log_Service:
     def log_activity(self, activity):
         pass    
-    

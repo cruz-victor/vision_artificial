@@ -1,6 +1,7 @@
 #Principio de Susticion de Liskov
 #LSP es un a extension del OCP. Mismo comportamiento con atributos adicionales (ventas locales con impuesto, ventas extranjeras sin impuestos)
 #Permite sustituir una clase base por la clase hija (polimorfismo) y segregar correctamente las clases para aplicar herencia
+#Un objeto que hereda de la clase base deberia poder hacer si o si todo los que hace la clase base, caso contrario no cumpliria con LSP
 #Una clase hija puede sustituir al padre sin cambiar el comportamiento
 #Darle mayor mantenimiento al software
 #Detectar casos ejemplares de las modificaciones de las clases bases

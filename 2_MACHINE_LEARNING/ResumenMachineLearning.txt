@@ -12,8 +12,36 @@ Configuracion
 Tramiento de datos
     Pasar de datos sucios a datos limpios y ordenados
 
+    Tratamientos:
+        1. Reemplazar valores (datos vacios, datos nulos, datos negativos)
+        2. Imputacion de datos (remplazar con la media, con la moda, con el promedio)
+        3. Estandarizar datos (normalizacion datos de 0 a 1, -1 a 1. escalado de datos)
+        4. Mapeo de datos (correccion de ortografia, acentos)
+
     Pasos:
-        Reemplazar valores (datos vacios, nulos, datos negativos)
-        Imputacion de datos (con la media, con la moda, con el promedio)
-        Estandarizar datos ()
-        Mapeo de datos
+        0. Analizar
+            Oler los malos datos, ver rangos, ver los minimos y maximos
+                df.describe()
+                df.info()
+                graficos
+
+            Analizar los datos categoricos    
+                set_gen=set(df['genero'].to_list())
+
+        1. Reemplazar valores. Tratamiento de valores negativos
+            df['edad']=df['edad'].apply(lambda x:np.nan if x<0 else x)
+
+        2. Imputacion de datos. Imputar valores faltantes
+            median_value=df['edad'].median()
+            df['edad'].fillna(median_value)
+
+        3. Estandarizar datos
+            Casteo de datos
+                df['edad']=df['edad'].astype(int)
+
+        4. Mapeo de datos
+            'Bachelors':'Bachelor'
+            'mastre':'Master'
+            'pHd':'PhD'
+            'no education':'None'
+        

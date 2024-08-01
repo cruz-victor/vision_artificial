@@ -1,0 +1,19 @@
+Configuracion
+    Crear ambiente virtual en python
+    Instalar:
+        numpy
+        pandas
+        matplotlib
+        seaborn
+        scikit-learn
+        streamlit
+        plotly
+
+Tramiento de datos
+    Pasar de datos sucios a datos limpios y ordenados
+
+    Pasos:
+        Reemplazar valores (datos vacios, nulos, datos negativos)
+        Imputacion de datos (con la media, con la moda, con el promedio)
+        Estandarizar datos ()
+        Mapeo de datos

@@ -23,7 +23,7 @@ Tramiento de datos
             Oler los malos datos, ver rangos, ver los minimos y maximos
                 df.describe()
                 df.info()
-                graficos
+                graficar()
 
             Analizar los datos categoricos    
                 set_gen=set(df['genero'].to_list())
@@ -45,3 +45,49 @@ Tramiento de datos
             'pHd':'PhD'
             'no education':'None'
         
+Analisis exploratorio
+    Consultas al dataset
+    Ejemplo: dataset de sobreviviente del titanic
+        Y como se relacion la edad con la supervivencia
+            df.groupby('Suvived')['Age'].mean()
+        Cuantos pasajeros sobrevieron y cuantos no?
+            df['Survived'].value_counts()
+        El genero tiene alguna relacion con la supervivencia?
+            df.groupby('Sex')['Survived'].mean()
+        La clase del boteto tiene alguna relacion con la supervivencia?
+            df.groupby('Pclass')['Survived'].mena()
+        El puerto de embarque tiene alguan relacion con la supervivencia?
+            df['Embarked'].value_counts()
+            df.groupby('Embarked')['Survived'].mean()
+        La tarifa tiene alguna relacion con la supervivencia?
+            df.groupby('Survived')['Fare'].mean()
+
+Normalizacion de datos
+    Escalado
+        Cambia el rango de los datos. como [0,1] o bien [-1,1]        
+            scaler=MinMaxScaler()
+    Normalizacion
+        Cambia la distribucion de los datos para que tenga una media 0
+            scaler=StandardScaler()
+
+Codificacion de datos categoricos
+    One-Hot Enconding
+        Crear variables numericas para cada categoria
+        Ineficiciente cuando hay muchas catagorias
+        Tambien son conocidadas como variables dummy
+
+        encoder=OneHotEncoder()
+
+    Label Enconding
+        A cada categoria asigna una valor numerico
+        Los algoritmos podrian interpretar como si las categorias tuvieran un orden
+
+        encoder=LabelEncoder()
+        encoder=OrdinalEncoder() //hace lo mismo pero en una sola linea de codigo
+
+Conjuntos de entrenamiento y prueba
+    Partir el dataset en datos de entrenamiento y pruebas
+    Por lo general el tamano del dataset de entrenamiento es entre 60% y 80%
+    Tener cuidado con el overfitting
+
+Metricas para clasificacion (video 9)

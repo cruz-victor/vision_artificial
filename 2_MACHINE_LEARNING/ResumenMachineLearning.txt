@@ -91,3 +91,7 @@ Conjuntos de entrenamiento y prueba
     Tener cuidado con el overfitting
 
 Metricas para clasificacion (video 9)
+
+Errores
+
+Nivel de variacion

@@ -91,7 +91,18 @@ Conjuntos de entrenamiento y prueba
     Tener cuidado con el overfitting
 
 Metricas para clasificacion (video 9)
+    Asertividad(Accuracy)
+        Verdadero Positivos
+        Verdaderos Negativos
+        Falsos Positivos
+        Falsos Negativos
+    Recall (Tasa de verdaderos positivos)
+    Precision
+    F1-Score (Recall + Precision)
+    ROC curve
 
-Errores
+VOCABULARIO
+Metrica
 
-Nivel de variacion
+
+

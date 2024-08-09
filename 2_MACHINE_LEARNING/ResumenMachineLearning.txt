@@ -90,20 +90,54 @@ Conjuntos de entrenamiento y prueba
     Por lo general el tamano del dataset de entrenamiento es entre 60% y 80%
     Tener cuidado con el overfitting
 
-Metricas para clasificacion (video 9)
-    Asertividad(Accuracy)
-        Verdadero Positivos
-        Verdaderos Negativos
-        Falsos Positivos
-        Falsos Negativos
-    Recall (Tasa de verdaderos positivos)
-    Precision
-    F1-Score (Recall + Precision)
-    ROC curve
-    Matriz  de confusion
+Metricas
+    La metrica es una medida para calificar el modelo creado
+
+    Para clasificacion 
+        Asertividad(Accuracy)
+            Verdadero Positivos (correcto)
+            Verdaderos Negativos (correcto)
+            Falsos Positivos (incorrecto)
+            Falsos Negativos (incorrecto)
+
+            A=True/True+False
+                    
+        1. Matriz  de confusion
+             Es una tabla que se usa para ver el rendimiento del modelo           
+             La diagonal principal tiene que tener mayor cantidad de valores correctos
+
+
+                            Predicho Positivo   Predicho Negativo
+             Real Positivos Verdadero Positivo  Falso Negatitvo
+             Real Negativo  Falso Positivo      Verdadero Negativo
+
+        2. Precision
+            P= True Positive/True Positive + False Positive
+
+        3. Recall (Tasa de verdaderos positivos)
+            R=True Positive/True Positive + False Negative
+
+        4. F1-Score (Recall + Precision)
+            F1=2(pxR)/p+R            
+
+        5. ROC curve
+            Grafica que muestra el rendimiento del modelo            
+
+        Ejemplos:
+            Dataset Iris
+
+            1. Calcular la matriz de confusion
+            2. Calcular la Precision (matriz de confusion)
+            3. Calcular el recall (matriz de confusion)
+            4. Calcular F1-Score (Resultado de Precision, Resultado de Recall)
+            5. Graficar la ROC curve (lo curva tiene que esta inclinado hacia True Positive Rate)
+
+
 
 VOCABULARIO
 Metrica
-
+Media armonica
+Clasificacion binaria
+ROC curve
 
 

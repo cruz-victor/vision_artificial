@@ -179,8 +179,70 @@ Metricas
 
 VOCABULARIO
 Metrica
-Media armonica
-Clasificacion binaria
-ROC curve
+    Es una forma de medir o evaluar el rendimiento de un modelo de machine learning
+    Ejemplo: Medir la nota de un examen, 90%, indicar un buen trabajo, 50% indica que necesitas mejorar
 
+Clasificacion binaria
+    Asignar 1 de 2 posibles categorias de datos
+    Es tipo de clasificacion (apredizaje supervizado) y que el objetivo es asignar una de dos posibles categorias a un conjunto de datos.
+
+ROC curve
+    Receiber Operating Characteristic = Caracteristica de funcionamiento del receptor
+    Es una herramienta grafica para evaluar el rendimiento de un modelo de clasificacion de aprendizaje supervizado
+    Muestra la relacion entre la tasa de verdaderos positivos y tasa de falsos positivos
+
+Diferencia entre promedio, media, moda, media armnonica
+    Son diferentes formas de describir caracteristicas centrales de un conjunto de datos
+
+    Promedio (Media aritmetica/Media)
+        Promedio= Suma de todos los valores/Numero total de valores
+        Ejemplo: 3+6+9/3=18/3=6 -> promedio = 6
+    
+    Media
+        Sinonimo de Promedio o Media aritmetica
+
+    Media armonica
+       Significado:
+            Media
+                Forma de calcular el promedio
+            Armonica
+                Proviene de armonica o relacion equilibrada
+
+            La media armonica es un tipo especial de promedio que se usa para calcular el valor central 
+            equilibrando la influencia de cada dato como la velocidad por ejemplo
+
+       Es similar al promedio, pero no igual
+       Es util en situaciones donde combinas diferentes tarifas, tasas o velocidades
+       Analogia: Pensar como un puente que conecta diferentes caminos que recorres o distintas velocidades. 
+       En lugar de simplemente sumar velocidades, la media asegura que consideres mas detalles como el tiempo
+       Ejemplo: Sumar la distancia recorrido entre dos tramos a diferentes velocidades
+                El primer tramo, recorres a 100 km a una velocidad de 60 km/h
+                El segundo tramo, recorres otro 100 km a una velocidad de 30 km/h                
+                Encontrara la velocida promedio de todo el viajes 
+                Con Media armonica:
+                    Calcular el tiempo de cada tramo
+                    Sumar el tiempo total
+                    Sumar las distancias
+                        Correcto porque considera el tiempo
+                Con Promedio:
+                    Sumar la distancias
+                    Dividir entre las dos distancias
+                        Incorrecto no considera el tiempo
+                
+    Moda
+        Es el valor que mas se repite en un conjunto de datos
+        Depende de la frencuencia de los datos
+        Ejemplo: 2,3,3,5 -> moda =3
+        
+
+Metodo converge
+    Significado:
+        Con: significa juntos o hacia un punto
+        Vergere: significa inclinarse o dirigirse
+        Justos significa: dirigirse juntos hacia un punto comun
+
+    Un metodo converge cuando a medida que se itera cada vez mas se aproxima a la solucion.
+    Analogia: 
+        Imagina adivinar un numero, y alguien te dice que esta muy lejos o muy cerca, a medida
+        que iteras cada vez mas te acercas a la respuesta
 

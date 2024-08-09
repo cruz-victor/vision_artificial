@@ -92,6 +92,9 @@ Conjuntos de entrenamiento y prueba
 
 Metricas
     La metrica es una medida para calificar el modelo creado
+    Error
+        En clasificacion un error de predicion es cuando el modelo da un falso positivo o negativo
+        En regresion un error se entiende como una diferencia entre el valor ideal y valor predicho
 
     Para clasificacion 
         Asertividad(Accuracy)
@@ -123,7 +126,7 @@ Metricas
         5. ROC curve
             Grafica que muestra el rendimiento del modelo            
 
-        Ejemplos:
+        Ejemplo:
             Dataset Iris
 
             1. Calcular la matriz de confusion
@@ -131,6 +134,46 @@ Metricas
             3. Calcular el recall (matriz de confusion)
             4. Calcular F1-Score (Resultado de Precision, Resultado de Recall)
             5. Graficar la ROC curve (lo curva tiene que esta inclinado hacia True Positive Rate)
+
+    Para regresion
+        1. Error Cuadratico (SE)
+            La suma de los cuadrados de los errores
+            El error es la diferencia entre el valor ideal y valor predicho
+            Los punto fuera de la recta ideal son las predicciones
+        
+        2. Error cuadratico medio (MSE)
+            Promedio de los cuadrados de los errores
+
+        3. Raiz del error cuadratico medio (RMSE)
+            Es la raiz cuadrada del prodmedio de los cuadrados de los errores
+
+        4. Error absoluto medio (MAE)
+            Es el promedio de los valores absolutos de los errores
+
+        5. Coeficiente de determinaicon
+            Indica cuanta variacion de los datos puede ser explicada por el modelo
+            Si el resultado se acerca a 1, quiero decir que el modelo es mejor
+
+        Ejemplo:
+            Dataset Salarydata
+            1. Error Cuadratico
+                EC = ((y_test-y_pred)**2).sum()
+            2. Error Cuadratico medio
+                ECM=EC/len(y_test)
+            3. Raiz del error cuadratico medio
+                RMSE = ECM ** 0.5
+            4. Erro Absoluto medio
+                EAM = abs(y_test - y_pred).mean()
+            5. Coeficionente de determinacion
+                residuos= y_test-y_pred
+                explained_variance=resisudos.var()
+                total_variance=y_test.var()
+                R2=1-(explained_variance/total_variance)
+
+                Las metricas para regresion 1,2,3,4 son necesarias para llegar a la metrica 5
+                La metrica 1 maneja valores grandes es necesario reducir las metricas 2,3,4 para llegar a la metrica 5
+                El coeficinete de determiancion es capaz de explicar el 0.97 (97% de los datos) de la variacion de los datos. Buen modelo.
+            
 
 
 

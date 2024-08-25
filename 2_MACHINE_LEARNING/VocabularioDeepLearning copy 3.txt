@@ -1,0 +1,130 @@
+Vocabulario
+Inteligencia Artificial
+	Es la capacidad de una maquina para imitar las funciones cognitivas humanas para aprender y resolver problemas
+	Analogia: un robot que aprende y resuelve problemas
+	Ejemplo: Chatgpt, Siri, Alexa
+
+Machine Learning
+	Subcampo e la IA donde los sistemas aprenden de datos y resuelven problemas sin ser programados explicitamente
+	Analogia: ensenar a un robot a reconocer gatos y perros mostrando muchas fotos
+	Ejemplo: sistema que filtra correo span
+
+Deep Learning
+	Subcampo de ML que usa redes neuronales con muchas capas para aprender de grandes cantidades de datos
+	Analogia: Ensenar a un robot con un cerebro artificial capaz de reconocer radiografias
+	Ejemplo: Reconocimiento de voz como Google Assintance
+
+Generative AI
+	Modelos de IA que generan contenido nuevo como texto, imagenes a partir de datos aprendidos
+	Analogia: Un robot que escribe poemas despues de leer muchos poemas
+	Ejemplo: Chatgpt, generacion de imagenes a partir de texto como DALL-E
+	
+Symbolic AI
+	Modelos de IA que utiliza reglas logicas y simbolos para resolver problemas
+	Analogia: Un robot que resuelve un rompecabezas siguiendo reglas claras y definidas
+	Ejemplo: Aplicacion de Symbolic AI en sistemas expertos que diagnostican enfermedades basados en reglas
+
+Perceptron (percepcion)
+	Es una red neuronal artificial que puede considerarse un modelo de una sola neurona
+	Toma una entrada, aplica un peso y  produce una salida. 
+	Inspirado en como los seres humanos perciben y procesan la informacion.
+	Analogia: Una neurona del cerebro (o una red neuronal de una sola neurona). 
+	Maquina muy simple que recibe datos, realiza calculo y produce resultado
+	Ejemplo: Una neurona que decide si algo es cierto o falso 
+
+Backpropation (Propagacion hacia atras)
+	Algoritmo para ajustar los pesos(w) de una red neuronal
+	Analogia: Correr errores de un examen para aprender y mejorar en futuras pruebas
+	Ejemplo: Ajustar una red neuronal que clasifica imagenes de animales para mejorar su precision
+
+Convolutional Neural Networks
+	Tipo de red neuronal especializada en procesar imagenes. Los datos tiene estructura de grilla.
+	Analogia: Filtros de Instagram
+	Ejemplo: Deteccion de objetos en fotografias. Identificar personas. 
+
+ImageNet
+	Es una base de datos de imagenes que se usan para evaluar modelos de vision por computador
+	Analogia: Albun de fotos agrupados por categorias
+	Ejemplo: Imagenes para probar la presion de modelos de vision por computador
+
+AlexNet
+	Arquitectura de red neural profunda que revolucion la vision por computadora al ganar una competencia de reconocimiento de imagenes
+	Analogia: Camara que distigue entre miles de objetos
+	Ejemplo: Red neural para clasificar imagenes de animales en categorias
+
+Transformers 
+	Arquitectura de red neuronal para manejar secuencia de datos y entender contextos. Utilizado en NLP
+	Analogia: Traductor de texto que puede entender contextos
+	Ejemplo: Traducir textos entre idiomas. Generar texto basado en un contexto
+
+Bert
+	Modelo (realiza una tarea especifica a partir de un algoritmo) basado en la arquitectura Transformer (texto y contextos) que entiende el contexto en una oracion
+	Analogia: Un lector que comprende el contexto y significado
+	Ejemplo: Google utiliza Bert para comprender busquedas
+
+GPT-3
+	Modelo (realiza una tarea especifica a partir de un algoritmo) de lenguaje Avanzado que genera texto basado en la arquitectura Transformer 
+	Analogia: Persona que escribe historias y responde preguntas basado en amplio conocimiento
+	Ejemplo: Robot que genera contenido a partir de una frase
+
+Funcion de activacion
+	Funcion matematico que decide si una neurona debe activarse o no
+	Analogia: Un interruptor de luz que decide si enciende o apaga la luz
+	Ejemplo: Una senal electrica es recibida por las dendritas y si esta senal supera un cierto umbral, la neurona se activa
+		
+
+Sigmoid
+	Funcion de activacion que convierte un valor de entrada en un valor de salida entre 0 y 1
+	Analogia: Interruptor de luz que atenua la luz gradualmente en lugar en encender o apagar completamente
+	Ejemplo: Clasificar si un correo es un span o no con una probabilidad entre 0 y 1
+	
+Tanh
+	Funcion de activacion que convierte un valor de entrada en un valor de salida entre -1 y 1
+	Analogia: Termometro que muestra temperaturas negativas y positivas
+	Ejemplo: Normalizar las salida de una red neuronal entre -1 y 1
+
+Relu
+	Funcion de activacion que permite (rectifica) que solo los valores positivos pasen atraves de ellas
+	Analogia: Valvula que deja pasar el agua solo si la presion es suficiente
+	Ejemplo: Uso en redes neuronals profundas 
+
+Leaky Rely (Leaky=Agujereada)
+	Fucion de activacion variante de Relu que permite que una pequena cantidad de valores negativos pasen a traves de la funcion
+	Analogia: Valvula que deja pasar el agua incluso si la presion es baja
+	Ejemplo: Evita que las neuronas se mueran durante el entrenamienot
+
+Maxout
+	Funcion de activacion que seleccion el valor maximo de varias entradas
+	Analogia: Seleccionar el valor mas alto de un conjunto de numeros
+	Ejemplo: Uso en redes neuronales para mejorar la precision y la capacidad de aprendizaje
+
+ELU (Exponential Linear Unit)
+	Funcion de activacion que suaviza las salidas negativas para mejorar la estabilidad del modelo
+	Analogia: Valvula que se ajusta automaticamente dependiendo de la presion
+	Ejemplo: Ayuda a que el modelo se entrene eficientemente de manera mas eficiente
+
+Softmax
+	Funcion de activacion que convierte un conjunto de valores en un conjunto de probabilidades
+	Analogia: Aplicar SoftMax a las votaciones de candidatos presidenciales
+	Ejemplo: Usada en la capa final de una red neuronal  para la clasificacion multiclase
+
+Bias (del ingles Sesgo o inclinacion)
+	Nivelador, termino adicional de una red neuronal que ayuda a ajustar la salida del modelo
+	Analogia: ajustar la base de una mesa para que quede nivelada
+	Ejemplo: Supongamos que estas entrenando un modelo para predecir si una persona esta feliz o triste basandose en su tono de voz
+	El bias seria como el ajuste que el modelo hace para capturar mejor las situaciones en la que una persona suena feliz.
+
+Red Neuronal
+	Conjunto de neuronas artificiales que trabajan juntas para aprender y tomar decisions
+	Analogia: Un cerebro dentro de una computadora
+	Ejemplo: Red neuronal que reconoce digitos escritos a man
+
+Loss Function
+	Funcion matematico que mide la precision de un modelo
+	Analogia: Metricas de modelos
+	Ejemplo: Metrica Mean Square Error (MSE) que se usa para medir la diferencia entre valores predichos y valores reales
+	Mean Squared Error
+	Binary Cross Entropy Loss
+	Cross Entropy Loss
+
+//-----

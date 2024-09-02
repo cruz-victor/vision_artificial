@@ -1,0 +1,3750 @@
+﻿SYLLABUS VISIÓN POR COMPUTADOR
+
+
+1. Lenguaje de Programación Python
+1. Instalación y Configuración
+   * Instalación de Python
+   * Instalación de un entorno de desarrollo (IDE) como PyCharm, VS Code o Jupyter Notebook
+2. Sintaxis Básica
+   * Hola Mundo
+   * Variables y tipos de datos (números, cadenas, listas, tuplas, conjuntos, diccionarios)
+   * Operadores (aritméticos, lógicos, de comparación)
+Estructuras de Control
+3. Condicionales
+   * Sentencias if, else, elif
+   * Ejercicios de práctica
+4. Bucles
+   * Bucles for y while
+   * Sentencias break y continue
+   * Ejercicios de práctica
+Funciones y Módulos
+5. Funciones
+   * Definición y llamada de funciones
+   * Parámetros y argumentos
+   * Valor de retorno
+   * Alcance de variables
+6. Módulos y Paquetes
+   * Importación de módulos (built-in y personalizados)
+   * Instalación y uso de paquetes con pip
+Estructuras de Datos Avanzadas
+7. Listas y Tuplas
+   * Métodos de listas y tuplas
+   * List comprehensions
+8. Diccionarios y Conjuntos
+   * Métodos de diccionarios y conjuntos
+   * Ejercicios de práctica
+Programación Orientada a Objetos (POO)
+9. Clases y Objetos
+   * Definición de clases
+   * Métodos y atributos
+   * Instanciación de objetos
+10. Herencia y Polimorfismo
+   * Herencia simple y múltiple
+   * Polimorfismo
+   * Métodos y atributos especiales
+Manejo de Errores y Excepciones
+11. Excepciones
+   * Manejo de excepciones con try, except, else y finally
+   * Creación de excepciones personalizadas
+Entrada y Salida (I/O)
+12. Manejo de Archivos
+   * Lectura y escritura de archivos
+   * Manejo de archivos CSV y JSON
+Bibliotecas y Herramientas Esenciales
+13. NumPy
+   * Creación y manipulación de arrays
+   * Operaciones matemáticas avanzadas
+14. Pandas
+   * Manejo de DataFrames
+   * Operaciones de limpieza y manipulación de datos
+15. Matplotlib y Seaborn
+   * Creación de gráficos y visualizaciones
+   * Personalización de gráficos
+Desarrollo Web
+16. Introducción a Flask/Django
+   * Instalación y configuración
+   * Creación de una aplicación web simple
+Aprendizaje Automático
+17. Scikit-Learn
+   * Conceptos básicos de aprendizaje automático
+   * Implementación de modelos de clasificación y regresión
+2. Introducción a la Visión por Computador
+1. Conceptos Básicos de Visión por Computador
+   * Qué es la visión por computador
+   * Historia y aplicaciones
+2. Matemáticas y Fundamentos de la Imagen
+   * Álgebra lineal
+   * Fundamentos de la imagen digital (resolución, píxeles, color)
+3. Procesamiento de Imágenes
+3. Manipulación Básica de Imágenes
+   * Lectura y escritura de imágenes
+   * Transformaciones geométricas (escalado, rotación, traslación)
+4. Filtros de Imagen y Operaciones Básicas
+   * Filtros de convolución (blur, sharpen, edge detection)
+   * Operaciones morfológicas (dilatación, erosión)
+5. Introducción a OpenCV
+   * Instalación y configuración de OpenCV
+   * Lectura, visualización y guardado de imágenes y videos
+6. Procesamiento de Imágenes con OpenCV
+   * Conversión de color
+   * Detección de bordes y contornos
+   * Segmentación de imágenes
+4. Reconocimiento de Patrones
+7. Introducción al Aprendizaje Automático
+   * Conceptos básicos (supervisado, no supervisado)
+   * Herramientas y librerías (Scikit-Learn, TensorFlow, PyTorch)
+8. Características y Descriptores
+   * Detección de características (SIFT, SURF, ORB)
+   * Descriptores de imagen (HOG, LBP)
+9. Clasificación de Imágenes
+   * Introducción a clasificadores (SVM, KNN, Random Forest)
+   * Implementación de un clasificador básico
+5. Deep Learning
+10. Introducción a las Redes Neuronales Convolucionales (CNNs)
+   * Arquitectura de una CNN
+   * Implementación de una CNN simple
+11. Transfer Learning
+   * Uso de modelos preentrenados
+   * Adaptación de modelos preentrenados a nuevas tareas
+12. Detección de Objetos
+   * Técnicas y algoritmos e implementacion (YOLO, SSD, Faster R-CNN)
+
+
+
+
+6. Temas adicionales
+1. Matemáticas y Fundamentos Teóricos
+Importancia: Las matemáticas proporcionan las bases para entender cómo funcionan los algoritmos de visión por computador.
+* Álgebra Lineal: Comprender matrices, vectores, transformaciones lineales, descomposición en valores singulares (SVD).
+* Cálculo: Derivadas parciales, gradientes, optimización.
+* Probabilidad y Estadística: Teoría de probabilidad, distribuciones, teoría de la estimación.
+* Geometría Computacional: Transformaciones geométricas, proyecciones, geometría de cámaras.
+2. Programación y Herramientas
+Importancia: Saber programar eficientemente es crucial para implementar y probar algoritmos de visión por computador.
+* Lenguajes de Programación: Python es el más utilizado en visión por computador, pero también es útil conocer C++ para trabajar con OpenCV.
+* Control de Versiones: Git y GitHub para gestionar el código y colaborar en proyectos.
+3. Aprendizaje Automático y Profundo
+Importancia: La visión por computador se ha beneficiado enormemente del aprendizaje automático y profundo.
+* Fundamentos de Machine Learning: Regresión, clasificación, clustering, reducción de dimensionalidad.
+* Redes Neuronales Convolucionales (CNNs): Arquitecturas básicas y avanzadas, entrenamiento y ajuste de hiperparámetros.
+* Aprendizaje No Supervisado: Clustering, reducción de dimensionalidad, autoencoders.
+* Aprendizaje por Transferencia: Utilización de modelos preentrenados para nuevas tareas.
+4. Bibliotecas y Frameworks
+Importancia: Conocer las herramientas y bibliotecas más comunes puede agilizar mucho tu trabajo.
+* OpenCV: Procesamiento de imágenes y tareas de visión por computador.
+* TensorFlow y Keras: Redes neuronales y aprendizaje profundo.
+* PyTorch: Redes neuronales y aprendizaje profundo.
+* Dlib: Reconocimiento facial y otras tareas de visión por computador.
+5. Aplicaciones Específicas y Proyectos Prácticos
+Importancia: La aplicación práctica de los conocimientos teóricos es esencial para consolidar el aprendizaje.
+* Visión por Computador en Tiempo Real: Procesamiento de video en tiempo real, seguimiento de objetos.
+* Visión por Computador en Movilidad: Implementación en dispositivos móviles (TensorFlow Lite, Core ML).
+* Proyectos Prácticos: Trabajar en proyectos reales como la detección de caras, reconocimiento de objetos, análisis de movimiento, etc.
+6. Herramientas de Desarrollo
+Importancia: Conocer las herramientas adecuadas puede facilitar mucho el desarrollo y la implementación de soluciones de visión por computador.
+* Jupyter Notebooks: Para desarrollar y probar código de manera interactiva.
+* IDE y Editores de Código: PyCharm, Visual Studio Code, etc.
+* Docker: Para crear entornos de desarrollo reproducibles y despliegue.
+7. Optimización y Despliegue
+Importancia: Asegurar que los modelos sean eficientes y se puedan desplegar en producción.
+* Optimización de Modelos: Pruning, cuantización, compresión.
+* Despliegue: Servir modelos con TensorFlow Serving, TorchServe, o APIs personalizadas.
+* Herramientas de Profiling y Depuración: TensorBoard, PyTorch Profiler.
+8. Lectura y Actualización Continua
+Importancia: La visión por computador es un campo en rápido desarrollo.
+* Papers y Artículos Científicos: Leer publicaciones recientes en arXiv, CVPR, ICCV, ECCV.
+* Cursos Online: Mantenerse actualizado con cursos de plataformas como Coursera, edX, Udacity.
+* Comunidad: Participar en foros y comunidades como Stack Overflow, Reddit, GitHub.
+
+
+
+
+
+
+
+
+CURSO
+1. Lenguaje de Programación Python
+Curso de Python - Soy Dalto
+https://www.youtube.com/watch?v=nKPbfIU442g&list=PLE8uP447fYpis_9iiaT1GrdOLmg85pAJB&index=9
+
+
+
+
+Características de Python
+        Propósito general
+        Lenguaje de alto nivel        
+Tipado dinámico
+        En tipado estático depende del tipo de dato
+        En tipado dinamico la variable se adapta segun el tipo de dato
+  
+
+        Orientado a objetos
+        Lenguaje interpretado
+                Cada linea se interpreta linea por linea
+                Un poco mas lento que los lenguajes compilados (interpreta y ejecuta)
+        
+
+
+Usos de Python
+Desarrollo web (Flask, Dyango)
+Desarrollo móvil
+Desarrollo desktop (blender, bittorren)
+Automatizacion de scripts
+Ciencia de datos
+Machine learning
+Analisis de datos (numpy y pandas)
+Sistema embebidos
+Automatizacion de software
+Hacking
+
+
+Historia
+        Creador Guido Van Rousen
+        Publicado en 1991
+        Version 0.9.0 (1991)
+        Version 1.0 (1994)
+        Version 2.0 (2000)
+        Version 3.0 (2008)
+Version 3.x (hacia adelante)
+
+
+Instalacion
+        Descargar la version 3.x.x
+        Ejecutar la consola de python
+  
+
+        Descargar visual studio code
+        
+
+
+Tipos de datos
+        Ver codigo.
+
+
+(1:12:34)
+Operadores aritméticos
+
+
+
+
+Operadores de comparacion
+
+
+                
+Condicionales
+
+
+
+
+Operadores lógicos
+
+
+
+
+Metodos de cadenas
+
+
+(1:12:00)
+Metodos de listas
+
+
+Metodos de diccionarios
+
+
+Inputs
+
+
+(3:06:56)
+Variables
+
+
+For
+
+
+(3:59:00)
+While
+
+
+Funcions
+Lambda
+
+
+(4:55:00)
+Ejercicios practicos 2
+
+
+5:17:00
+Modulos
+
+
+5:38:19
+Enrutamiento de modulos
+
+
+Paquetes
+
+
+Archivos
+
+
+Archivos CSV
+
+
+6:43:04
+Trabajando con archivos CSV
+
+
+Graficos con  matplotlib y seaborn
+
+
+7:06:42
+Programación Orientado a objetos
+Ver el curso completo de POO
+
+
+Excepciones
+7:11:27
+
+
+Expresiones regulares
+
+
+
+
+Programación Orientada a Objetos
+https://www.youtube.com/watch?v=HtKqSJX7VoM&t=12s
+
+
+Programación secuencial
+Clases
+Constructores
+Atributos
+Métodos
+Herencia simple
+(1:00:00)
+Herencia múltiple
+Mro - Metodo de resolucion de orden
+Polimorfismo
+Encapsulamiento
+Setters y Getter
+Decoradores
+(2:20:24)
+Abstracción
+
+
+Principios Solid
+Single responsability
+Open and Close
+(3:19:19)
+Liskov
+Interface segregation
+Dependency Injection
+
+
+
+
+Desarrollo Web Flask (PENDIENTE)
+https://www.youtube.com/watch?v=W-SfC_V7P6o&t=207s
+
+
+Que es flask
+        Es un micro framework para crear aplicaciones web con python
+        Usa el patrón MVC
+        Tiene varias extensiones para extender la funcionalidad de flask
+        El framework establece el esquemas para la implementación de la aplicación
+        Flask es similar a Django pero más ligero
+        Es de código abierto
+
+
+Ventajas de Flask
+        Fácil de usar
+        Flexibilidad
+        Pequeño y ligero
+        Bajo nivel de abstraccion
+
+
+Flask incluye
+        Servidor web embebido
+        Depurador (Debug)
+        Compatible con python 3
+        Compatible con wsgi (protocolo estándar de app web)
+        Buen manejo de rutas (controladores)
+        
+Flask soporta
+        cookies, sesiones
+        No tiene ORM, pero se puede instalar una extensión
+        Sirve para construir API RESt
+        Sirve para crear aplicaciones de contenido estático
+        
+Flask MVC
+  
+
+
+
+  
+
+  
+
+
+
+
+
+(7:28)
+Instalacion y configuracion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ejemplo práctico Flask con Mysql
+https://www.youtube.com/watch?v=-1DmVCPB6H8&list=PLq-TXo0gIUoFJn7FoidMHCvCdjH8rxPIo
+
+
+Aprendizaje Automático
+Ver curso de Machine Learning
+
+
+Que es el Machine Learning
+https://www.youtube.com/watch?v=qp-lQwmXZEU
+El Machine Learning permite a los computadores aprender a detectar patrones en los datos para generar predicciones sin necesidad de ser programados explícitamente.
+  
+
+  
+
+Solución con programación convencional
+        Nuevas palabras modifican el programa
+        El programa no es capaz de generalizar
+  
+
+Solución con machine learning
+        El modelo aprende a detectar modelos
+        Versátil, el modelo es capaz de generalizar
+Fácil de mantener. El código no se modifica significativamente, simplemente se alimenta con más datos.
+  
+
+
+
+
+
+
+
+
+
+Scikit-Learn
+https://www.youtube.com/watch?v=qUjIybMkXBs&t=634s
+https://www.youtube.com/watch?v=J8VOHBkNIT0&list=PLzKF7sAvC2S9wrGq0UPqzbypOzwXagE2J
+https://www.youtube.com/watch?v=V4ab6qsJZMY
+
+
+Que es Scikit-Learn
+        Sci de SciPy = Biblioteca usada para la computación científica
+        Kit de Toolkit = Conjunto de herramientas
+        Scikit = Conjunto de herramientas para la computación científica
+        Es una biblioteca de código abierto de Python para machine learning
+        Proporciona herramientas simples para la minería de datos y análisis de datos
+En scikit learn contiene modelos clásicos de machine learning: Clasificación, Regresión, Clustering, Reducción de dimensionalidad.
+
+
+Clasificación de los modelos de ML
+        Aprendizaje supervisado
+El modelo entrena con un conjunto de datos etiquetados, lo que significa que los datos de salida son conocidos o están disponibles. El objetivo es aprender en base a las entradas y salidas.
+Analogía:
+Imagina que estás aprendiendo a sumar con la ayuda de un maestro. El maestro te muestra los problemas (entrada) y también te muestra las soluciones (salida). Aprendes a resolver problemas nuevos basándose en esos ejemplos.
+                Modelos
+Regresión lineal
+Encuentra la línea que mejor se ajusta a los datos, minimizando el error de predicción.
+Ejemplo: Predecir el precio de una casa basándose en características como el tamaño y el número de habitaciones. Al modelo se proporcionará el tamaño y el número de habitaciones (entrada) y también el precio de cada casa (salida)
+Clasificación (Support Vector Machines ‘SVM’ o Random Forest)
+Crea un modelo que pueda clasificar correctamente 
+Ejemplo: Clasificar correos electrónicos como spam o no spam. Al modelo se proporcionará datos de correo (entrada) y la clasificación del correo si es spam o no spam (salida)
+        Aprendizaje no supervisado
+El modelo se entrena con un conjunto de datos que no tienen etiquetas, lo que significa que los datos de salida no están disponibles. El objetivo es encontrar patrones en los datos.                
+Analogía:
+Piensa en un conquistador español que llega a un territorio desconocido sin un mapa. El conquistador tiene que agrupar las características del terreno por si mismo y descubrir patrones sin ningún guía.
+Modelos
+        Clustering (K-Means)
+        Agrupan los datos basados en similitudes. 
+Ejemplo: De una caja de chocolates chubis agrupar los chocolates por el color y tamaño.
+Reducción de dimensionalidad (PCA análisis de componentes principales)
+Se utilizan para transformar los datos a un espacio de menor dimensión.
+        Aprendizaje por refuerzo
+Aprende a tomar decisiones mediante la interacción con su entorno. El modelo recibe recompensas o castigos basado en acciones que toma y ajusta su estrategia para maximizar las recompensas a lo largo del tiempo.
+Analogía:
+Imagina que está entrenando a un perro a través de recompensas y castigos. Cada vez que el perro realiza una acción correcta, recibe una recompensa (refuerzo positivo). Si realiza una acción incorrecta, no recibe recompensa (refuerzo negativo)
+                Modelos (Q-Learning, Deep Q-Network)
+                        Permiten al modelo aprender estrategias óptimas para ganar el juego.
+Clasificación de los modelos de ML
+Tipo de aprendizaje
+	Modelos
+	Ejemplos
+	Aprendizaje Supervisado
+-aprende a asignar una categoría
+	Classification
+-predecir una categoría
+	-Decision Trees in Random Forest
+	-Predecir si un correo es spam o no.
+-Clasificación de gatos vs perros.
+-Diagnóstico de enfermedades.
+-Predecir fraudes.
+	- Support Vector Machines (SVM)
+	-K-Nearest Neighbor (KNN)
+	Regression
+-predecir un número 
+	-Linear regression
+	-Predecir el precio de las casas.
+-Predecir el consumo de electricidad.
+-Predecir la temperatura
+-Predecir ventas.
+	-Polynomial regression
+	-Support vector Regression (SVR)
+	Aprendizaje no supervisado
+-aprende a descubrir grupos
+	Clustering
+-segmentación en grupos basados en similitudes
+	-K-Means
+	-Agrupar clientes por características.
+-Agrupar imágenes.
+-Agrupar y detectar patrones en datos espaciales.
+-Detección de anomalías.
+	-Hierarchical clustering
+	Dimensionality reduction
+-Simplificación de datos (x) sin perder información esencial.
+	-Principal component analysis (PCA)
+	-Reducir el tamaño de una imagen.
+-Compresión de datos.
+-Eliminación de ruido
+	-Autoencoders
+	
+
+	
+
+	Aprendizaje por refuerzo
+-Aprende a hacer algo por recompensas
+	RL Models
+	-Q-Learning
+	-Agente que aprende a conducir un vehículo.
+-Control de robots.
+
+
+	-Deep Q-Network (DQN)
+	-Policy Gradient Methods
+	
+
+  
+
+Flujo de trabajo
+1. Recolección de datos
+2. Pre procesamiento
+Generar particiones. Tomar los datos y partirlos en sub datasets (entrenamiento, validación, pruebas)
+Transformación de los datos (rangos de valores, limpieza de datos, escalamiento, estandarización, etc)
+3. Crear, entrenar y validar el modelo
+                Crear un objeto asociado al modelo
+                Entrenar con los datos
+                Con el modelo entrado validar el modelo
+4. Generar predicciones
+  
+
+Algoritmo vs Modelo 
+Algoritmo
+        Secuencia de pasos de dan solución a un problema
+  
+
+Modelo
+El modelo es el producto final del algoritmo con el cual se podría realizar predicciones.
+  
+        
+
+
+Conceptos básicos de aprendizaje automático
+Configuración
+        Crear ambiente virtual en python
+        Instalar:
+            numpy
+            pandas
+            matplotlib
+            seaborn
+            scikit-learn
+            streamlit
+            plotly
+
+
+Tratamiento de datos
+        Pasar de datos sucios a datos limpios y ordenados
+
+
+        Tratamientos:
+            1. Reemplazar valores (datos vacios, datos nulos, datos negativos)
+            2. Imputacion de datos (remplazar con la media, con la moda, con el promedio)
+            3. Estandarizar datos (normalizacion datos de 0 a 1, -1 a 1. escalado de datos)
+            4. Mapeo de datos (correccion de ortografia, acentos)
+
+
+        Pasos:
+            0. Analizar
+                Oler los malos datos, ver rangos, ver los minimos y maximos
+                    df.describe()
+                    df.info()
+                    graficar()
+
+
+                Analizar los datos categoricos    
+                    set_gen=set(df['genero'].to_list())
+
+
+            1. Reemplazar valores. Tratamiento de valores negativos
+                df['edad']=df['edad'].apply(lambda x:np.nan if x<0 else x)
+
+
+            2. Imputacion de datos. Imputar valores faltantes
+                median_value=df['edad'].median()
+                df['edad'].fillna(median_value)
+
+
+            3. Estandarizar datos
+                Casteo de datos
+                    df['edad']=df['edad'].astype(int)
+
+
+            4. Mapeo de datos
+                'Bachelors':'Bachelor'
+                'mastre':'Master'
+                'pHd':'PhD'
+                'no education':'None'
+            
+Analisis exploratorio
+        Consultas al dataset
+        Ejemplo: dataset de sobreviviente del titanic
+            Y como se relacion la edad con la supervivencia
+                df.groupby('Suvived')['Age'].mean()
+            Cuantos pasajeros sobrevieron y cuantos no?
+                df['Survived'].value_counts()
+            El genero tiene alguna relacion con la supervivencia?
+                df.groupby('Sex')['Survived'].mean()
+            La clase del boteto tiene alguna relacion con la supervivencia?
+                df.groupby('Pclass')['Survived'].mena()
+            El puerto de embarque tiene alguan relacion con la supervivencia?
+                df['Embarked'].value_counts()
+                df.groupby('Embarked')['Survived'].mean()
+            La tarifa tiene alguna relacion con la supervivencia?
+                df.groupby('Survived')['Fare'].mean()
+
+
+Normalizacion de datos
+        Escalado
+            Cambia el rango de los datos. como [0,1] o bien [-1,1]            
+                scaler=MinMaxScaler()
+        Normalizacion
+            Cambia la distribucion de los datos para que tenga una media 0
+                scaler=StandardScaler()
+
+
+Codificacion de datos categoricos
+        One-Hot Enconding
+            Crear variables numericas para cada categoria
+            Ineficiciente cuando hay muchas catagorias
+            Tambien son conocidadas como variables dummy
+
+
+            encoder=OneHotEncoder()
+
+
+        Label Enconding
+            A cada categoria asigna una valor numerico
+            Los algoritmos podrian interpretar como si las categorias tuvieran un orden
+
+
+            encoder=LabelEncoder()
+            encoder=OrdinalEncoder() //hace lo mismo pero en una sola linea de codigo
+
+
+Conjuntos de entrenamiento y prueba
+        Partir el dataset en datos de entrenamiento y pruebas
+        Por lo general el tamano del dataset de entrenamiento es entre 60% y 80%
+        Tener cuidado con el overfitting
+
+
+Metricas
+        La metrica es una medida para calificar el modelo creado
+        Error
+            En clasificacion un error de predicion es cuando el modelo da un falso positivo o negativo
+            En regresion un error se entiende como una diferencia entre el valor ideal y valor predicho
+
+
+        Para clasificacion
+            Asertividad(Accuracy)
+                Verdadero Positivos (correcto)
+                Verdaderos Negativos (correcto)
+                Falsos Positivos (incorrecto)
+                Falsos Negativos (incorrecto)
+
+
+                A=True/True+False
+                        
+            1. Matriz  de confusion
+                 Es una tabla que se usa para ver el rendimiento del modelo               
+                 La diagonal principal tiene que tener mayor cantidad de valores correctos
+
+
+
+
+                                Predicho Positivo   Predicho Negativo
+                 Real Positivos Verdadero Positivo  Falso Negatitvo
+                 Real Negativo  Falso Positivo          Verdadero Negativo
+
+
+            2. Precision
+                P= True Positive/True Positive + False Positive
+
+
+            3. Recall (Tasa de verdaderos positivos)
+                R=True Positive/True Positive + False Negative
+
+
+            4. F1-Score (Recall + Precision)
+                F1=2(pxR)/p+R                
+
+
+            5. ROC curve
+                Grafica que muestra el rendimiento del modelo                
+
+
+            Ejemplo:
+                Dataset Iris
+
+
+                1. Calcular la matriz de confusion
+                2. Calcular la Precision (matriz de confusion)
+                3. Calcular el recall (matriz de confusion)
+                4. Calcular F1-Score (Resultado de Precision, Resultado de Recall)
+                5. Graficar la ROC curve (lo curva tiene que esta inclinado hacia True Positive Rate)
+
+
+        Para regresion
+            1. Error Cuadratico (SE)
+                La suma de los cuadrados de los errores
+                El error es la diferencia entre el valor ideal y valor predicho
+                Los punto fuera de la recta ideal son las predicciones
+            
+            2. Error cuadratico medio (MSE)
+                Promedio de los cuadrados de los errores
+
+
+            3. Raiz del error cuadratico medio (RMSE)
+                Es la raiz cuadrada del prodmedio de los cuadrados de los errores
+
+
+            4. Error absoluto medio (MAE)
+                Es el promedio de los valores absolutos de los errores
+
+
+            5. Coeficiente de determinaicon
+                Indica cuanta variacion de los datos puede ser explicada por el modelo
+                Si el resultado se acerca a 1, quiero decir que el modelo es mejor
+
+
+            Ejemplo:
+                Dataset Salarydata
+                1. Error Cuadratico
+                    EC = ((y_test-y_pred)**2).sum()
+                2. Error Cuadratico medio
+                    ECM=EC/len(y_test)
+                3. Raiz del error cuadratico medio
+                    RMSE = ECM ** 0.5
+                4. Erro Absoluto medio
+                    EAM = abs(y_test - y_pred).mean()
+                5. Coeficionente de determinacion
+                    residuos= y_test-y_pred
+                    explained_variance=resisudos.var()
+                    total_variance=y_test.var()
+                    R2=1-(explained_variance/total_variance)
+
+
+                    Las metricas para regresion 1,2,3,4 son necesarias para llegar a la metrica 5
+                    La metrica 1 maneja valores grandes es necesario reducir las metricas 2,3,4 para llegar a la metrica 5
+                    El coeficinete de determiancion es capaz de explicar el 0.97 (97% de los datos) de la variacion de los datos. Buen modelo.
+                
+
+
+Implementación de modelos de clasificación y regresión
+Modelos de Aprendizaje Supervisado
+
+
+
+
+Modelos de Aprendizaje No Supervisado
+
+
+
+
+
+
+
+
+VOCABULARIO MACHINE LEARNING
+Metrica
+        Es una forma de medir o evaluar el rendimiento de un modelo de machine learning
+        Ejemplo: Medir la nota de un examen, 90%, indicar un buen trabajo, 50% indica que necesitas mejorar
+
+
+Clasificacion binaria
+        Asignar 1 de 2 posibles categorias de datos
+        Es tipo de clasificacion (apredizaje supervizado) y que el objetivo es asignar una de dos posibles categorias a un conjunto de datos.
+
+
+ROC curve
+        Receiber Operating Characteristic = Caracteristica de funcionamiento del receptor
+        Es una herramienta grafica para evaluar el rendimiento de un modelo de clasificacion de aprendizaje supervizado
+        Muestra la relacion entre la tasa de verdaderos positivos y tasa de falsos positivos
+
+
+Diferencia entre promedio, media, moda, media armnonica
+        Son diferentes formas de describir caracteristicas centrales de un conjunto de datos
+
+
+        Promedio (Media aritmetica/Media)
+            Promedio= Suma de todos los valores/Numero total de valores
+            Ejemplo: 3+6+9/3=18/3=6 -> promedio = 6
+    
+        Media
+            Sinonimo de Promedio o Media aritmetica
+
+
+        Media armonica
+           Significado:
+                Media
+                    Forma de calcular el promedio
+                Armonica
+                    Proviene de armonica o relacion equilibrada
+
+
+                La media armonica es un tipo especial de promedio que se usa para calcular el valor central
+                equilibrando la influencia de cada dato como la velocidad por ejemplo
+
+
+           Es similar al promedio, pero no igual
+           Es util en situaciones donde combinas diferentes tarifas, tasas o velocidades
+           Analogia: Pensar como un puente que conecta diferentes caminos que recorres o distintas velocidades.
+           En lugar de simplemente sumar velocidades, la media asegura que consideres mas detalles como el tiempo
+           Ejemplo: Sumar la distancia recorrido entre dos tramos a diferentes velocidades
+                    El primer tramo, recorres a 100 km a una velocidad de 60 km/h
+                    El segundo tramo, recorres otro 100 km a una velocidad de 30 km/h                    
+                    Encontrara la velocida promedio de todo el viajes
+                    Con Media armonica:
+                        Calcular el tiempo de cada tramo
+                        Sumar el tiempo total
+                        Sumar las distancias
+                            Correcto porque considera el tiempo
+                    Con Promedio:
+                        Sumar la distancias
+                        Dividir entre las dos distancias
+                            Incorrecto no considera el tiempo
+                    
+        Moda
+            Es el valor que mas se repite en un conjunto de datos
+            Depende de la frencuencia de los datos
+            Ejemplo: 2,3,3,5 -> moda =3
+            
+
+
+Metodo converge
+        Significado:
+            Con: significa juntos o hacia un punto
+            Vergere: significa inclinarse o dirigirse
+            Justos significa: dirigirse juntos hacia un punto comun
+
+
+        Un metodo converge cuando a medida que se itera cada vez mas se aproxima a la solucion.
+        Analogia:
+            Imagina adivinar un numero, y alguien te dice que esta muy lejos o muy cerca, a medida
+            que iteras cada vez mas te acercas a la respuesta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Introducción a la Visión por Computador
+https://www.youtube.com/watch?v=yEfOAJRQ73k&list=PLilWJnCHHGl2Iog1Tusf62T3cq7Vz3UoT
+
+
+02 Visión por Computador - Definiciones e Historia
+
+
+Procesamiento de imágenes
+        La entrada es una imagen y la salida es una imagen
+  
+
+  
+
+
+
+Análisis de imagen
+        La entrada es una imagen y la salida son datos (medidas, interpretación o decisión)
+  
+
+
+
+Reconocimiento de patrones
+        La entrada son datos (no necesariamente una imagen), la salida es una clase.
+
+
+  
+
+
+
+  
+
+
+
+Computación Gráfica
+        Modelos 3D son representados en 2D
+
+
+  
+
+
+
+Visión por computador
+        Es una ciencia que hace que los computadores vean
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+Historia
+        
+  
+
+
+
+  
+
+
+
+Se pudo predecir a partir de la sombra de la piramide y la altuma de una persona predecir la altura de la pirámide
+  
+
+        
+Asia
+        Primeras pinturas en superficies planas
+  
+
+
+
+Europa
+        Los tamaños de las personas no eran relativas
+        El tamaño de las personas eran pintados por la importancia
+  
+
+
+
+Perspectiva
+        Filipo Brunelleschi propuso la perspectiva
+        Logra pasar de las 3D a las 2D con puntos de fuga
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+  
+
+
+
+Alemania
+        Inventa una máquina de la perspectiva
+  
+
+
+
+  
+
+Italia
+        Se invento la cámara oscura
+  
+
+
+
+  
+
+
+
+        Cámara oscura reflex
+  
+
+
+
+Francia
+        Invento las coordenadas cartesianas en 3D y 2D
+        La posición de la mosca puede ser obtenida a partir de 3 coordenadas
+        Creó la geometria analitica
+  
+
+
+
+Creación de la fotografía
+Se descubrió el material fotosensible
+  
+
+        
+  
+
+  
+
+        
+        Transmisión digital en 1920
+        La imagen logra atravesar el océano atlántico
+  
+
+        
+  
+
+  
+
+
+
+        Se inventa la cámara reflex
+  
+
+
+
+
+
+  
+
+
+
+03 Visión por computador: Puntos y líneas en coordenadas homogéneas
+(AQUI ME QUEDE CONTINUAR DESPUÉS DE APRENDER PROCESAMIENTO DE IMÁGENES)
+
+
+
+
+26 Visión por computador: Proyectos de Aplicaciones de Deep Learning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vocabulario
+Procesamiento de imágenes
+        La entrada es una imagen y la salida es otro imagen
+        La imagen se procesa para:
+            Cambia de color
+            Detectar bordes
+            Segmentar
+            Restaurar, etc
+
+
+Análisis de imagen
+        La entrada es una imagen y la salida es un análisis (medidas, interpretaciones o decisiones)
+        Analiza un imagen para obtener un resultado de análisis
+        Analizar una imagen para:
+            Encontrar defectos
+            Contar la cantidad de objetos
+            Identificar si corresponde a un determinado objeto, etc
+
+
+Reconocimiento de patrones
+        La entrada son datos, la salida es una clase
+        Reconoce o infiere una imagen para determinar una clase
+        Inferir:
+            Inferir a partir de datos de un corridor (palpitaciones por segundo, edad, genera) si está cansado o no
+            Inferir que una fruta está en buen estado o no
+
+
+Computación Gráfica
+        Entrada es una imagen en 3D la salida es otra imagen en 2D
+        Convertir imágenes de 3D a 2D    
+
+
+Visión por computador
+        Es una ciencia que hace que las computadoras adquieran la capacidad de ver
+
+
+Proceso de la visión por computador
+        1. Adquisición de imágenes
+            Fotografías, rayos x, etc
+        2. Procesamiento de imágenes
+            Restauración,filtrado, segmentación, etc
+        3. Análisis de imágenes
+            Extracción de características, machine learning, clasificación, interpretación
+        4. Análisis de múltiples vistas
+            Rastreo de imágenes en video
+            Reconstrucción 3D
+            Calibración
+
+
+Material fotosensible
+
+
+
+
+
+
+Perspectiva
+Se refiere a la manera en que algo es visto o representado, ya sea en un aspecto físico (como en el arte) o en un sentido abstracto (como en la visión del mundo o las opiniones)
+Ejemplo:
+En el arte la perspectiva es una técnica utilizada para representar objetos 3D en superficies 2D.
+
+
+Geometría
+Es un rama de la matemática que se ocupa de la forma, tamaño de objetos en el espacio.
+Ejemplos:
+        Geometría euclidiana, suma de los ángulos de un triángulo es 180 grados
+        Geometria analitica, ecuacion de una línea recta en un plano cartesiano
+Geometría diferencial, estudio de la curvatura de una superficie con cálculo diferencial e integral
+
+
+Algebra
+Es una rama de las matemáticas que utiliza simbolos y letras para representar número y cantidad en fórmulas y ecuaciones.
+A diferencia de la aritmética que opera con numero concretos, el algebra opera con variables.
+Permite la formulación de ecuaciones que pueden resolver problemas mas grandes
+Ejemplo:
+        3x+5=10
+        f(x)=x2
+        Ecuaciones
+        Vectores, matrices
+
+
+
+
+
+
+
+
+
+
+3. Procesamiento de Imágenes
+https://www.youtube.com/watch?v=ViO5UX-rJpQ&list=PLilWJnCHHGl3XnrEav2OJvDdCbSVZ1PVK&index=1
+
+
+01 Procesamiento de Imágenes: Presentación del Curso
+  
+
+  
+
+  
+
+  
+
+
+
+02 Procesamiento de Imágenes: Introducción
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Reconocimiento de Patrones
+https://www.youtube.com/watch?v=fN4fOoWzdWs&list=PLilWJnCHHGl0kU8VCfgvlsZQjh6X0pyAW
+
+
+
+
+5. Visión por computador
+https://www.youtube.com/watch?v=yEfOAJRQ73k&list=PLilWJnCHHGl2Iog1Tusf62T3cq7Vz3UoT
+
+
+
+
+01 Visión por Computador: Presentacion del curso
+  
+
+
+
+  
+
+
+
+
+
+02 Visión por Computador - Definiciones e Historia
+
+
+
+
+
+
+
+
+5.1. Deep Learning
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VOCABULARIO
+NumPy
+         Es una librería que permite la manipulación de arreglos multidimensionales
+        Es ideal para operación matemáticas, algebraicas y estadisticas
+        Array multidimensional (ndarray)
+
+
+Pandas (Panel de datos)
+        Es una biblioteca que facilita el manejo y análisis de datos.
+        Es adecuado para la manipulación de datos tabulares (similar a excel)
+        Manipulación y análisis de datos etiquetados
+        Creado en base a numpy
+        Dataframe, hoja de cálculo
+        Series, columna de la hoja de cálculo
+        Leer datos
+                df=pd.read_csv(“archivo.csv”)
+        Seleccionar y filtrar datos
+                df[“columna”]
+                df[df[“columna”]>valor]
+        Operaciones en datos
+                df[“columna”].sum()
+                df[“columna”].mean()
+
+
+  
+
+
+
+Matplotlib
+        Permite crear gráficos
+        Control total sobre el gráfico
+        Caja de pinturas con todo lo necesario para crear cualquier gráfico
+Seaborn
+        Permite crear gráficos
+        Gráficos atractivos
+        No requiere control exhaustivo
+        Es como tener un artista talentoso que usa la misma caja de pinturas
+        Mínimamente require plt.show() para mostrar el gráfico
+
+
+Programación secuencial
+        Es una forma de programa
+        Muchas líneas de código secuenciales
+
+
+Programación orientada a objetos
+        Es una forma de programar
+        Sirve en programas muy grande
+
+
+Entornos virtuales en python
+Virtualenv -p python3 env
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CURSO DEEP LEARNING
+CLASE 1 - 13/08/2024
+
+
+  
+
+
+
+Todas las clases se graban
+Las clases X no se grabaran todas
+
+
+
+
+CLASE 2 - 15/08/2024
+FUNDAMENTOS DE DEEP LEARNING 1
+
+
+Deep Learning
+        Machine Learning 
+                Es un campo de estudio
+                Necesita muchos datos para su entrenamiento
+                Se necesitan tratar los datos
+        
+        Deep Learning
+                Es un campo de estudio
+                Parte de machine learning
+                Necesita muchos datos para su entrenamiento
+                No se necesitan tratar los datos
+                Automáticamente encuentra las características a partir de las capas
+        
+        Generative AI
+                Es un campo de estudio
+                Necesita muchos datos
+                Genera contenido
+                
+        Symbolic AI
+                Es un campo de estudio
+                Basado en el uso de símbolos y reglas
+                No necesita muchos datos
+                Los sistemas expertos usan Symbolic AI
+
+
+
+
+¿Qué hace posible Deep Learning?
+        Actualmente es importante por:
+                1. Big data
+                2. Capacidad de cómputo (GPU, TPU)
+                3. Nuevos algoritmos
+
+
+  
+
+
+
+Cual es la diferencia entre ML y DL
+        ML requiere datos estructurados
+        DL requiere datos no estructurados
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+Para problemas de imágenes, textos, sonido, datos no estructurados usar deep learning
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+Historia del Deep Learning
+        Cibernética
+                Inicio del estudio del funcionamiento del cerebro humano
+        Conexionismo
+                Unir mas nodos para ser mas inteligente
+        Deep Learning
+                Datos, computación, nuevos algoritmos
+        
+
+
+Innovación por etapa
+        Perceptron
+                Es la analogía a una neurona que tiene entradas, proceso y salida
+                No puede entender el XOR
+(?)                
+
+
+Minsky/Papert
+        Congelamiento de la IA
+        (?)
+
+
+1979 Neocognitron de Fukushima
+        Estudio de la corteza visual de los gatos
+        Similar a una red neural convolucional
+
+
+1986 Algoritmo backpropagation
+        (?)
+        Optimizar los pesos del final hacia el principio
+        
+1997 Long Short Term Memory
+        (?)
+        Vanishing/exploding gradients
+        Es una arquitectura poderosa para hacer frente a la arquitectura transformer
+1998 Convolutional Neural Networks
+        Arquitectura para procesamiento de imágenes
+        
+        2009-2012 ImageNet and AlexNet
+                (?)
+                ImageNet es una base de datos de diferentes tipos de imagenes
+                lexNet es una arquitectura de red neuronal profunda
+                Empieza el  entrenamiento de deep learning con gpu
+                
+        2015 Deep Reinforcement Learning                
+                (?)
+
+
+        2016 Alphago vence a Lee Sedol
+                (?)
+
+
+        2017-2018 Transformers y BERT
+                Arquitecturas nuevas
+                Permiten procesos paralelos
+                Chatgpt, Llama usa la arquitectura transformers
+                
+        2020 GPT-3
+                Modelo desarrollo en base a la arquitectura Transformers
+                Generacion de codigo
+                Desarrollador por OpenAI
+
+
+        2023 Actualidad
+                Aprendizaje autosupervisado
+                Aprendizaje interactivo
+                Precisión
+                Cuestiones éticas y legales
+                etc
+  
+
+
+
+
+
+  
+
+
+
+Revisar
+Paper de AlexNet        
+
+
+
+
+Redes Neuronales Artificiales
+        El cerebro maneja diferentes niveles de abstracción
+  
+
+
+
+
+
+
+
+
+
+  
+
+        La neurona es una inspiración para el perceptrón
+        El perceptrón es la unidad básica de la red neuronal, es similar a una neurona
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+        Funciones de activación
+                Relu
+                Sigmoide
+  
+
+
+
+        Las entradas se multiplican por los pesos
+  
+
+
+
+        El bian introduce flexibilidad al modelo
+  
+
+
+
+        Con el bias la recta no pasa por el origen (0,0)
+  
+
+
+
+  
+
+        El bias tiene relación con el temperatura value de los LLM (Large Language Modelo)
+        LLM es un término genérico para describir grandes modelos de lenguajes
+        GPT-3 es un tipo específico de LLM
+
+
+
+
+Funciones de activaciones
+https://youtu.be/_0wdproot34?si=sVNUL0lgndADHR5-
+
+
+La FA Softmax devuelve una probabilidad de la capa de salida        
+
+
+  
+
+
+
+Importancia de las FA
+        Evitan que la predicción sea una recta
+
+
+  
+
+
+
+
+
+Perceptron
+        
+  
+
+
+
+  
+
+
+
+        En el XOR no se puede usar una recta para dividirlo
+  
+
+
+
+        El learning rate es un hiper parámetro 
+        Determinar el valor de learning rate y epochs 
+                En base a papers
+                En base a lógica de break, cuando se repiten los valores
+  
+
+
+
+Transpuesta
+        
+  
+        
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+Solución
+https://colab.research.google.com/drive/1CGVkyQjvdSFMwNW_YWOoBOG64gkxzU2K?authuser=1#scrollTo=guMDQHVww_PS
+
+
+
+
+Neural Networks
+        El XOR con una red neuronal se puede resolver
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+W=(4x3) X=(3x1) = WX(4x1)
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notación de Neural Networks utilizados en algunos papers
+  
+
+
+
+  
+
+
+
+  
+
+        Usar sigmoide en clasificación binaria (sólo dos tipos de animales)
+  
+
+        Usar softmax en clasificación múltiple (varios tipos de animales)
+  
+
+
+
+Loss Functions (Funciones de pérdida)
+        Es una métrica para calificar un modelo creado
+Que tan bien está haciendo el trabajo la red neuronal
+D=valores que no toca la red neuronal (pesos y bias)
+teta=valores que toca la red neuronal
+
+
+  
+
+
+
+  
+
+
+
+Métricas para regresión y clasificación
+        ¿Cuál usar MSE (Error Cuadrático Medio) o MAE(Error Absoluto Medio)?
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+CLASE 3 - SÁBADO 17/08/2024
+FUNDAMENTOS DE DEEP LEARNING 2
+
+
+Docente Stanley Salvatierra
+        90% machine learning  y software engineer
+        desde el 2016 computer vision
+        
+Recapitulación de Deep Learning parte 1
+        ChatGPT está dentro de Deep Learning
+        El principio fundamental es la regresión lineal (ecuación de la recta)
+  
+
+        Con más variables la ecuación es multidimensional
+  
+
+        Igualando a cero, existe la ecuación de un plano
+  
+        
+        La RN agarra los parámetros Xn y los multiplica por los pesos Wn
+  
+
+        El bias controla la altura de la recta (arriba  o abajo)        
+  
+        
+        Los datos tienen que modelarse:
+        Los datos en el tiempo se modelan en números
+  
+
+Una imagen es una representación de píxeles se modelan entre 0 - 255        
+  
+
+        El texto se modelan en una matriz
+  
+
+
+
+Estructuras de datos
+Vectores y Matrices
+Al modelar se manejan vectores y matrices
+  
+
+        Los vectores se pueden usar para las ondas de audio
+        Las matrices se pueden usar para imágenes
+        Los arrays son matrices multidimensionales
+        Los vectores y matrices en general se llevan a un data frame de pandas
+        Las listas encapsulan data frames
+  
+
+
+
+        Perceptron
+        Perceptrón es una RN básica.
+Cada arquitectura de RN es experta en algún área (imágenes, videos, texto,  etc).
+
+
+        En la práctica machine learning es:
+1. Una colección de modelos (Regresión Lineal, Árboles de decisión, etc). 
+2. A partir de (1) los modelos se extraen de reglas y patrones de los datos.
+3. A partir de (2) las reglas y patrones se predicen sin programación explícita.
+  
+
+
+
+        
+(Segunda parte de fundamentos Deep Learning)
+        Gradiente Descendente
+        Tipos de Gradientes Descendentes (Batch, Stochastic, Mini Batch)
+        Backpropagation
+  
+
+
+
+Optimización de los pesos en Deep Learning
+        Regresion por minimos cuadrados
+                Es la primera aproximación a la optimización
+“dn“ es la distancia, mientras más cercano a 1 la predicción es buena, caso contrario más cercano a 0 la predicción es mala.
+La regresión lineal es la relación lineal entre dos variables X y Y
+  
+
+        Ejemplo de dataset de entrenamiento
+Con millones de datos el algoritmo de Regresion de Minimos Cuadrados empieza a fallar
+  
+
+        En estadística se llama muestras, en machine learning se llaman dataset
+  
+
+        
+Función de costo
+Indica que tan bien o mal está aprendiendo el algoritmo
+A la ecuación lo llamaremos h como hipótesis
+A medida que se mueva h se tendrá varias rectas
+De todas las funciones h, se necesita calcular el error
+El valor predicho menos el valor real
+J (Oo, O1) mínimo de la función J
+        Se obtiene la función de Error Cuadrático Medio
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+        Ejemplo de función de costo de una red neuronal
+  
+
+        El objetivo es que la bola roja entre a la parte más profunda
+  
+
+        Gama (y) es el learning rate
+        f(x) es la función de costo
+        x(current) es la posición actual 
+  
+
+
+
+        El learning rate controla qué tan rápido bajara o subira al mínimo
+        El learning rate depende del problema        
+  
+
+        
+1. Descenso de gradiente
+                Es un algoritmo de optimización de los pesos.        
+
+
+        
+2. Variaciones del descenso de gradiente
+        Existen los otros variaciones por motivos del computo
+
+
+Batch Gradient Descent
+        De cada pedazo de gradiente se obtiene el mínimo
+        Agarra todo el dataset
+        Pasa por el proceso de optimización
+        
+Stochastic Gradient Descent
+        Estocastico = Aleatorio
+        Por partes
+        Agarra una parte de datos del dataset
+        Pasar por partes el algoritmo
+        Itera sobre un ejemplo randomico y empieza a sumar al modelo final
+        Es más rápido, pero puedo tener un error
+        
+Mini Batch Gradient Descent
+        Hace la suma de los dos, pedazos del stochastic con el total 
+Toma un trozo del dataset porque el gradiente descendiente utiliza mucha computación
+  
+
+
+
+  
+
+
+
+Técnicas avanzadas de optimización: Adam, RMSprop, AdaGrad        
+  
+
+        Todos las variantes de Gradient Descent tratan de converger lo mejor posible
+  
+
+
+
+        Descenso de gradiente con momentum
+                Trata de tomar un impulso al centro
+                Tiene un nuevo híper parámetro beta
+  
+
+
+
+        Beta es el nuevo vector en color verde
+        Beta suaviza los pasos hacia el punto mínimo
+  
+
+        AdraGrad
+                La division entre cero se llama explosion de gradiente        
+  
+        
+        RMSPropo                
+  
+
+        Adam (Adaptive Momento Estimation)
+                Tiene dos hiperparametros beta 1 y beta 2
+                
+  
+
+                
+  
+
+
+
+Comparación de tipos de optimizadores
+  
+
+
+
+Aplicaciones de gradientes
+        Existen herramientas para elegir el mejor hiperparametro (?)
+        Adam y Adagrad son los mas utilizados
+        Algunos tipos de gradientes utilizan mucha computacion
+        Si algun optimizador no resuelve un problema bajar a nivel matematico
+        En general las arquitecturas de RN ya tienen parametros definidos
+        
+  
+
+
+
+
+
+(01:01:43)
+3. Backpropagation
+
+
+
+
+
+
+
+
+Técnicas de Regularización
+Listo el algoritmo de optimización, sobre el mismo se puede hacer otras optimizaciones
+        Permite que la función de costo se suaviza        
+        
+  
+
+
+
+        Dropout
+                Es una manera para ayudar al overfitting
+                Ayuda a que algoritmo no memorice
+                Apaga los pesos (w=0) para que el modelo no memorice
+                Las neuronas circundantes mejoras en la generalización
+  
+
+        En framework modernos el dropout esta por defecto
+        En el gráfico el error baja
+                Existen dos curvas del error del entrenamiento y validación
+                
+  
+
+
+
+        En el gráfico cuando las curvas se abren mucho entonces está memorizando
+        A partir de epoch 100 el modelo empieza a memorizar
+        El dropout permitirá que a partir del epoch 100 las curvas continuen en paralelo
+
+
+  
+
+
+
+        Batch Normalization
+                Normaliza los datos entre 0 y 1
+          
+        
+        L1 and L2
+        
+
+
+
+
+(02:00)
+Código de ejemplo - Regresión Lineal
+        Enlace del ejemplo CLASS.ipynb
+        
+        La sintaxis de pytorch es similar a numpy
+        El learning rate se obtiene con prueba y error 
+        También existen formas de obtener el learning rate más adecuado (?)
+        Para computer vision existen learning rate predefinidos
+        Pytorch maneja tensores y Numpy Arrays
+
+
+
+
+Preguntas y respuestas
+Learning rate (como se pueden calcular?)
+Existen herramientas para elegir el mejor hyperparametro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VOCABULARIO
+Regresión
+        Significa volver hacia atrás
+Galton estudio sobre la herencia en la estatura de las personas observó que cuando el padre era alto los hijos eran más bajos al contrario
+Determinó que los hijos tendían a regresar hacia la media poblacional "Regresión hacia la media"
+        La regresión lineal es la relación lineal entre dos variables X y Y
+
+
+Hipótesis
+Es un suposición o una idea supuesta que se puede probar
+
+
+Analogía
+Imagina que estás tratando de encontrar en una heladería el mejor sabor.
+La hipotesis podria ser: “Creo que el helado de chocolate es el más rico”
+Luego preguntar a la gente cuál es el helado más rico para verificar si tu hipótesis es correcta
+
+
+Ejemplo
+En un experimento científico, podrías tener la hipótesis “Las plantas crecen más rápido con luz solar directa que con luz artificial”
+
+
+Minimos y maximos de una función
+        Son los puntos más altos y mas mas bajos de la función
+
+
+        Ejemplo
+        El punto más alto de una montaña es el máximo, es la cima
+        El punto más bajo, el valle, es el mínimo
+
+
+Mínimos cuadrados
+        Es un técnica de optimización
+        Es una técnica para ajustar la mejor línea posible aun conjunto de datos
+        El objetivo es encontrar la mejor línea donde la suma sea la más pequeña posible
+Es la suma de los errores/diferencia de Y al cuadrado
+Los errores de Y es la diferencia entre el Y’ y Y. 
+Y’ es la predicción
+Y es la observación real
+Interpretación
+        Un MC más bajo indica una mejor optimización de la línea
+        Un MC más alto sugiere que la optimización no es la adecuada
+        
+Ejemplo:
+  
+
+
+
+Distancia a un punto
+        Es la longitud entre dos puntos
+Se calcula utilizando la fórmula de distancia euclidiana basado en el teorema de pitágoras
+  
+
+
+
+Analogía
+En un parque la distancia entre un árbol y un banco
+
+
+Ejemplo
+  
+
+
+
+Ecuación de la recta
+Es una fórmula para determinar todos los puntos que forman una línea recta en un gráfico
+  
+
+y = valor vertical en el eje y
+x = valor vertical en el eje x
+m = pendiente de la recta, que indica la inclinación de la línea
+b = es el origen de la recta en el eje y
+        
+        Ejemplo
+  
+
+        
+Error Cuadrático Medio
+        El MSE es una métrica de evaluación
+        Utilizada para evaluar la calidad de predicción de un modelo
+        La métrica es usado en problemas de regresión
+        
+Interpretación
+        Un MSE más bajo indica un mejor ajuste del modelo a los datos
+        Un MSE más alto sugiere que el modelo tiene grandes errores de predicción
+        
+        Analogía
+        Imagina que estás jugando a lanzar dardos a un tablero
+        Si el MSE es bajo, significa que los dardos en promedio, más cerca del centro
+Si el MSE es alto, significa que los dardos están más lejos del centro, menos precisión
+
+
+Relación entre MSE y MC
+MC es una técnica de optimización para encontrar los mejores parámetros (m,x,b) del modelo (una línea recta = y = mx+b)
+MSE es una métrica de evaluación del modelo
+        El MSE deriva del concepto de MC
+Cuando ajustas un modelo usando MC, lo que hace es encontrar los parámetros del modelo que minimiza la suma de los errores al cuadro
+Con los errores, puedes calcular el MSE
+
+
+
+
+Diferencia entre la regresión lineal y logística
+        Regresión Lineal
+                Se utiliza para predecir un valor numérico
+                La función toma la forma de una línea recta
+La métrica utilizada es Error Cuadrático Medio (MSE) para evaluar el modelo. Mide la diferencia entre los valores predichos y los valores reales
+                
+Ejemplo
+                Predecir el precio de una casa en base a su tamaño y ubicación
+
+
+        Regresión Logística
+                Se utiliza para predecir una categoría (verdadero o falso)
+La función toma la forma de un función sigmoide (tipo S) que se interpreta como probabilidad
+La métrica utilizada es Entropía Cruzada Binaria (Log Loss) para evaluar el modelo.
+Mide la diferencia entre las probabilidades predichas y etiquetas reales
+                
+Ejemplo
+                Predecir si un correo es spam o no
+
+
+Pendiente
+        Es una línea en un gráfico representa que tan inclinada está.
+        
+        Analogía
+        La pendiente es como la inclinación de una colina. 
+        Si la pendiente es alta la colina es muy empinada
+        Si la pendiente es baja la colina es más suave.
+
+
+Primera derivada
+La primera derivada en una función mide la pendiente de la función  en un punto determinado
+        
+        Analogía
+        En una carretera la pendiente en cada punto de la carretera es la primera derivada
+        La primera derivada nos dice si la carretera está subiendo o bajando o  es plana
+
+
+        Ejemplo
+Si tienes una curva que sube, su primera derivada en ese punto será alta porque cambia
+
+
+Segunda derivada
+La segunda derivada en una función mide la velocidad del cambio de la pendiente en un punto determinado
+        
+        Analogía
+En una carretera, la segunda deriva dice si la pendiente que tan rapido esta aumentando o disminuyendo, es decir, si la carretera se está volviendo más empinada o más plana
+
+
+Función de coste/Función de pérdida/Loss Function (Métrica)
+Es una métrica que evalúa la calidad de las predicciones de un modelo durante el entrenamiento (en cada epoch)
+Mide cuán incorrectas son las predicciones de un modelo
+Compara las predicciones del modelo con los valores reales para evaluar el “costo” del error
+El término costo se refiere al precio que se paga por la inexactitud en la predicción del modelo, cuanto mayor sea el error en las predicciones, mayor será el coste o mayor será la perdía
+En regresión, una  función de coste común es el MSE (después del entrenamiento, métrica de evaluación)
+En clasificación, una función de coste común es Cross Entropy Loss (después del entrenamiento, métrica de evaluación)
+Función de coste: Es una métrica de evaluación que se utiliza durante el entrenamiento para guiar el proceso de optimización del modelo (MSE, Cross-Entropy).
+Métrica de evaluación: Se utiliza después del entrenamiento para evaluar el rendimiento del modelo en nuevos datos (Accuracy, Precision, Recall)
+
+
+        Analogía
+Un coche que consume combustible a medida que avanza. Si el coche toma un desvío incorrecto, gasta más combustible para llegar a su destino, lo que representa un “coste” adicional.
+                
+Learning rate/Tasa de aprendizaje
+Es un número que decide qué tan grande es el paso que das cuando intentas mejorar el modelo para moverse hacia un mínimo en la función de coste durante el entrenamiento.
+Es un número que indica cuánto aprende el modelo en cada iteración durante su entrenamiento
+El rango del learning rate generalmente es positivo y está en un intervalo entre 0 y 1
+Los valores típicos suelen ser más pequeños como: 0.001, 0.01 o 0.1
+
+
+Analogía
+Imagina que está en la cima de una colina y quieres descender al punto más bajo del valle (el valor óptimo de los parámetros donde el error o coste es mínimo), el learning rate controla cuánto te mueves en usa dirección en cada paso
+
+
+Herramientas para calcular Learning rate 
+El número de learning rate se establece manualmente al iniciar el entrenamiento de un modelo
+Existen ciertas técnicas para encontrar un valor adecuado de learning rate
+1. Empíricamente
+        Comienza con valores estándares comunes 0.1, 0.01, 0.001
+Si el learning rate es alto, el modelo podría no converger y no alcanzar un mínimo.
+Converger: Llegar a un mismo punto
+Divergir: Crear opciones, separar
+2. Herramientas
+                Learning Rate finder: Implementada en bibliotecas como fastai y pytorch
+                Cyclic Learning Rates: Implementada en bibliotecas como keras y pytorch
+                Optuna: Es un biblioteca de optimización de hiperparametros
+                Hyperparameter Tuning Tools:  Plataforma de optimización de hiperparametro
+
+
+Optimización de los pesos en deep learning
+Es un proceso que tiene el objetivo de la optimización de los pesos (w=importancia) es encontrar los valores óptimos que permitan a la RN hacer predicciones precisas sobre datos nuevos, minimizando el error de las predicciones
+Proceso de optimización:
+1. Inicialización de los pesos: Valores aleatorios
+2. Propagación hacia adelante: Los datos de entrada se pasan a través de la RN
+3. Cálculo de la función de coste: Al final de la época se compara la predicción de la RN con valores reales
+4. Retropropagación del error: El error calculado se propaga hacia atrás utilizando el algoritmo de retropropagación Backpropagation
+5. Actualización de los pesos: Se actualizan los pesos
+6. Repetición: El proceso se repite durante múltiples épocas
+
+
+Underfitting and Overfitting
+Son problemas comunes que afectan a la capacidad del modelo para generalizar a datos nuevos
+
+
+Underfitting/Subajuste
+Ocurre cuando el modelo no memoriza ni aprende, modelo tonto
+El modelo es demasiado simple para capturar patrones en los datos de entrenamiento ni los datos nuevos
+Alto error de predicción con el conjunto de entrenamiento y validación
+
+
+Overfitting/Sobreajuste
+Ocurre cuando el modelo memoriza
+El modelo es demasiado complejo y se ajusta demasiado bien a los datos de entrenamiento
+Bajo error en con el conjunto de entrenamiento y alto error con el conjunto de validación
+
+
+Analizar los gráficos de underfitting y overfitting
+En un gráfico de entrenamiento de modelos, puedes observar el underfitting y overfitting comparando las curvas de error en conjunto de entrenamiento y validación a lo largo de las épocas de entrenamiento.
+Los datos para la comparación de curvas de error se obtiene del resultado de la función de coste que evalúa el modelo durante el entrenamiento
+Los datos para la comparación de curvas también se pueden obtener del resultado del accuracy(exactitud)/precisión
+        
+        Gráfico del modelo con Underfitting, Optimal y Overfitting respecto al error
+El valor del resultado de la función de coste o error es mejor cuando el resultado tiende a 0
+  
+
+
+
+Gráfico del modelo Optimal respecto al accuracy
+El valor del accuracy (exactitud) es mejor cuando el resultado tiende a 1
+Modelo óptimo
+  
+
+        Modelo óptimo con un poco de overfitting
+  
+
+        Modelo con un poco de overfitting y fuerte overfitting
+  
+
+
+
+Gradiente Descendente (Algoritmo de optimización)
+Es un algoritmo iterativo de optimización utilizado en ML y DL
+Ajusta los parámetros del modelo (pesos y bias) para minimizar la función de coste
+El objetivo es encontrar el punto en el que la función de coste alcanza su valor mínimo
+Es un método iterativo, que ajustar los parámetros hasta encontrar los valores que permiten minimizar la función de coste
+Es un proceso, implica calcular el gradiente de la función de coste respecto a los parámetros del modelo
+
+
+Algoritmo de optimización Gradiente descendente y Mínimos cuadrados
+        Gradiente descendente
+Algoritmo iterativo. Se utiliza para encontrar el mínimo de una función de coste ajustando los parámetros del modelo
+Utilizado en problemas donde hay muchas variables o RN
+Variables (tamaño, ubicación, habitaciones, etc)
+RN (neuronas, millones de conexiones, pesos, bias)
+        Mínimos Cuadrados
+Algoritmo exacto (no iterativo) que busca minimizar las diferencias entre las predicciones del modelo y los valores reales
+Utilizado en problemas de regresión lineal
+
+
+Tipos de Gradientes Descendentes (Dataset, parámetros)
+        Se enfocan en cómo usar el dataset calcular el gradiente y optimizar los parámetros
+
+
+        Batch Gradient Descent (todo dataset)
+                Gradiente descendente por lote 
+                Batch Gradient Descent
+Utiliza todo el dataset de entrenamiento
+Actualiza los parámetros del modelo en una única actualización por iteración
+Ventajas:
+Convergencia estable
+Desventajas:
+Requiere mucha memoria y tiempo cuando trabaja con grandes datasets
+Uso común:
+Con dataset pequeños o  gran disposición de recursos computacionales
+
+
+        Stochastic Gradient Descent (datos aleatorios dataset)
+                Stochastic Gradient Descent, SGD
+                Stochastic = Aleatorio
+Utiliza aleatoriamente una parte del dataset de entrenamiento en cada actualización
+Ventajas:
+Mas rápido que Batch Gradient Descent
+Requiere menos memoria
+Desventaja:
+Convergencia menos estable, puede oscilar alrededor del mínimo
+Uso común:
+Cuando el dataset es muy grande o entornos de recursos computacionales limitados
+
+
+         Mini Batch Gradient Descent (batch + stochastic)
+                Mini-batch Gradient Descent
+                Híbrido entre el gradiente descendente por lote y estocástico
+                Divide el dataset en pequeños mini-lotes
+Calcula el gradiente descendente para cada mini lote y se actualizan los pesos en cada iteración
+Ventajas:
+Es más rápido que el gradiente descendente por lotes y mas estable que estocástico
+Desventajas:
+Puede necesitar ajuste fino del tamaño del mini-lote para encontrar el equilibrio adecuado entre velocidad y estabilidad
+Uso común:
+Es el método más popular en la práctica
+
+
+
+
+Técnicas de optimización de Gradiente Descendente (learning rate)
+        Se enfocan en cómo mejorar el learning rate para mejorar el descenso de gradiente
+
+
+Son técnicas o formas de hacer que el algoritmo de descenso de gradiente sea más eficiente
+
+
+Ajustan los parámetros de un modelo para minimizar la función de coste, con el objetivo de mejorar la eficiencia
+
+
+        1.SGD (Stochastic Gradient Descent)
+        SGD es una variación del gradiente descendente
+Actualiza  los parámetros del modelo usando aleatoriamente un ejemplo del dataset de entrenamiento envés de usar todo 
+Ventaja: Rapido y eficiente en términos de memoria
+Desventaja: Convergencia inestable
+
+
+        2. Momentum (Historia de gradientes)
+        Mejora del SGD
+        Mejora la convergencia utilizando la historia de los gradientes
+        Ventaja: Ayuda a superar mínimos locales y acelera la convergencia
+        Desventaja: Requiere de un hiperparámetro adicional (el coeficiente de momento)
+
+
+        3. NAG (Historia de gradientes)
+        Neterov Accelerated Gradient
+        Mejora del Momentum
+        Calcula el gradiente en el siguiente paso, no solo en la posición actual
+        Mejora la convergencia utilizando la historia de los gradientes
+        Ventaja: Convergencia más rápida y precisa
+        Desventaja: Añade complejidad en el ajuste de hiperparametros
+
+
+4. AdaGrad (Learning rate dinamico)
+Adaptive Gradient
+Ajusta el learning rate de manera adaptativa basándose en las iteraciones anteriores
+Parámetros que han sido actualizados muchos tienen un learning rate bajo
+Adaptan dinámicamente el learning rate
+Ventaja: Es útil para dataset dispersos y donde algunos parámetros son más importantes que otros
+Desventaja: El learning rate puede volverse demasiado pequeño, ralentiza la convergencia
+
+
+5. RMSprop (Learning rate dinamico)
+Root Mean Square Propagation
+Mejora AdaGrad
+Soluciona el problema de learning rate demasiado pequeño
+Adaptan dinámicamente el learning rate
+        Ventaja: Funciona bien en problemas no convexos
+        Desventaja:  Necesita ajuste de un hiper parámetro adicional
+
+
+        6. Adadelta (Learning rate dinamico)
+        Extensión de AdaGrad
+        Mejora aún más el problemas de learning rate demasiado pequeño
+Introduce el decaimiento exponencial de los gradientes y evita la necesidad de almacenar todos los gradientes anteriores
+Adaptan dinámicamente el learning rate
+        Ventaja: No requiere especificar un learning rate inicial
+        Desventaja: Puede ser más complejo de implementar
+
+
+        7. Adam (Learning rate dinamico)
+        Adaptive Moment Estimation
+        Combina ideas de RMSprop y Momentum
+        Calcula learning rate individuales para cada parámetro
+Adaptan dinámicamente el learning rate
+Ventaja: Eficiente en términos de cálculos y memoria y funciona bien en problemas grandes con muchos datos o parámetros
+        Desventaja: Tiene varios hiperparametros que deben ser ajustados
+        
+
+
+Relación entre descenso de gradiente, Tipos de gradientes y Tecnicas de Optimizacion
+Descenso de gradiente: Es la idea básica para moverse hacia abajo en busca de la mejor solución
+Es la idea básica para implementar el algoritmo de Descenso de Gradiente
+
+
+Tipos de gradientes: Define como miras y decides tu camino (todo el dataset, dataset aleatorio o combinado)
+Se enfocan en cómo usar el dataset para calcular los gradientes y actualizar los parámetros  (Descenso de Gradiente por Lote, Estocástico, Mini-Lote)
+
+
+Tecnicas de optimizacion: Formas de hacer ese descenso más efectivo y eficiente
+Se enfocan en cómo ajustar el learning rate para mejorar la eficiencia del descenso de gradiente (Momentum, NAG, Adagrad, RMSprop, Adam)
+
+
+Técnicas de Regularización (overfitting)
+        Mejoran la generalización del modelo
+Las técnicas de regularización se refieren a métodos que regulan o controlan la complejidad de un modelo. 
+La idea es prevenir el overfitting al limitar o ajustar como el modelo se adapta a los datos de entrenamiento
+Regula los parámetros del modelo (pesos)
+
+
+Analogía
+Conducir un auto sin regular la velociraptor, podrías ir demasiado rápido y salirte del camino (similar al overfitting). Regular la velocidad ayuda mantener el control y llegar de manera segura
+
+
+Principales técnicas de regularización
+L1 y L2 regularization (regresión lineal)
+Utilizado en regresión LIneal
+Regulan el tamaño de los pesos de los modelos, penalizando aquellos que se vuelven excesivamente grandes.
+Evita que el modelo se vuelva demasiado complejo y propenso a overfitting
+
+
+        Dropout (deep learning)
+        Utilizado en redes neuronales
+Regula cuantas neuronas participan en cada iteración del entrenamiento
+Durante el entrenamiento apaga alguna neuronas lo que obliga a no depender demasiado de ninguna neurona en particular
+Hace que la RN sea más robusta al no depender demasiado de ninguna neurona específica
+
+
+        Early Stopping
+Regula el tiempo de entrenamiento del modelo, deteniendolo antes de que se ajuste demasiado a los datos de entrenamiento
+
+
+        Batch Normatización
+
+
+
+
+Backpropagation
+
+
+
+
+
+
+
+
+
+
+CLASE 4 - MARTES 20/08/2024
+PROYECTO DE INTELIGENCIA ARTIFICIAL I
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+Desarrollo de un proyecto de IA
+        Proceso del desarrollo un proyecto IA
+                0.Investigacion
+
+
+                1. Obtención de datos
+                2. Preparación de datos
+                3. Entrenamiento del modelo
+                4. Evaluación y validación del modelo entrenado
+
+
+  
+
+
+
+Definición del problema
+        Encontrar un problema. Identificar las causas y solución del mismo.
+  
+
+
+
+  
+
+
+
+Investigación
+        Investigar en repositorio de artículos sobre problemas similares y su solución.
+        Una GAN puede generar una imagen más realista.
+        De qué sitios web descargamos paper (?)
+  
+
+
+
+
+
+Obtención de datos
+        Obtener dataset de repositorios gratuitos
+        Crear propios dataset
+  
+
+        El dataset de celebridades ayuda, pero aun falta generalizar        
+  
+
+        Sugerencias para la construcción de datasheet
+                Hacer nuestro propio datasheet
+                Generar imágenes falsas (Datos sintéticos)
+                Pagar a personas para fotografiarse
+                Scrapping de fotos de redes sociales (tiene problemas legales y éticos)
+Obtener fotos de videos de comerciales (mediante un script con opencv)
+        Tomar imágenes de los álbumes de figuritas de futbol
+        
+  
+
+
+
+Preparación de datos
+Preparar u organizar los datos para su posterior entrenamiento con un modelo de datos
+De cada dibujo generar su par fotográfico
+A partir de una fotografía se puede generar una imagen (algoritmo de canny)        
+
+
+  
+
+        
+
+
+Entrenamiento del modelo
+        Entrenar el modelo con los datos previamente preparados
+A partir de la idea de algun articulo implementar la arquitectura del mismo con el dataset
+        En el curso se utilizarán Pytorch (tiene mas documentacion y comunidad)
+        
+  
+
+
+
+Evaluación y validación del modelo
+        Evaluar el modelo entrenado con el dataset de pruebas
+Para calificar el modelo se pueden usar diferentes métricas como: Pixel distance o Feature distance.
+Con pixal distance o feature distance se puede evaluar el modelo para encontrar diferencia
+  
+
+
+
+Despliegue del modelo
+El despliegue del modelo consiste en compilar e instalar el modelo en un ambiente de producción listo para su uso.
+La parte del despliegue del modelo en una página web o app móvil es opcional
+El objetivo del proyecto es mostrar las etapas de deep learning
+
+
+Sobre los papers
+        Trabajar con papers no tan actuales
+        En caso de no tener recursos de GPT, usar Colab/Kaggle
+        Es recomendable usar GPU de Nvidia
+Cuando salga un error, cambiar de GPU a CPU para tener un mensaje de error legible.
+  
+        
+Hackathon
+El Hackaton es un evento donde se trabajan en equipos intensamente para plantear soluciones a diferentes problemas
+        La solución es lo básico pero funcional
+  
+        
+
+
+  
+
+        Startup Weekend, es un evento para dar una propuesta de negocio
+        Hackaton, es un evento donde se hace un proyecto mínimo viable
+        
+  
+
+        Es recomendable usar modelos de deep learning ya implementados
+        La complejidad del proyecto explicar en clases
+        No es obligatorio que el proyecto sea de una problemática social (ODS) 
+A Veces es mejor usar un modelo existente para solucionar problemas de deep learning
+        También buscar proyectos en medium u otros foros
+        
+  
+
+
+
+Equipos para el proyecto de IA
+Buscar papers en: Google Scholar, ResearchGate, ElSevier, IEEE, ACM
+Dylan  quiero hacer un proyecto detección de obstáculos
+
+
+  
+
+
+
+  
+
+        
+
+
+Preguntas y Respuestas        
+1. Cuál es el repositorio de artículos de investigación (papers) sobre deep learning con más publicaciones (elsevier, iEEE, acm, etc) 
+2. Ustedes “Delve” nos pueden dar acceso a algún repositorio de artículos. En google scholar hay varios artículos, pero muchos de pago.
+3. Como me contacto con mi equipo para la primera tarea. Pienso que la comunicación sería más directa mediante whatsapp 
+4. Que es una problemática social (ODS) 
+
+
+        
+
+
+CLASE 5 - MIERCOLES 21/08/2024 (X)
+REPASO FUNDAMENTOS DEEP LEARNING 1
+(NO HAY GRABACION)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CLASE 6 - JUEVES 22/08/2024
+COMPUTER VISION I
+Profesor: Felipe San Martin - Chile
+Experiencia:
+Identificación de personas con cámaras fijas
+TOC Biometric, Identificación de la identidad
+Anastasia, Productos basados en machine learning
+        Research Associate I, investigación
+
+
+  
+
+
+
+Aplicaciones
+        Automóviles
+        Salud
+        Laboratorio
+        
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+Conceptos básicos
+  
+
+Computer Vision
+        Se extrae información de las imágenes
+  
+
+
+
+Deep Learning
+        Deteccion de objetos
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Imagen
+        Es una representacion de algun objeto        
+
+
+  
+
+        Imagen binaria
+  
+
+        
+  
+
+        Representacion de una imagen en color (RGB)
+  
+
+
+
+  
+
+
+
+  
+
+Espacios de color
+        RGB
+                Es un cubo de colores de 24 bits
+                No todos los colores son visibles por nosotros
+                
+  
+
+
+
+        HSV
+                En el Hue/matiz se codifica el color
+                La saturación es el brillo
+  
+
+
+
+        CMYK
+                Espacio de color usado en impresion
+Es totalmente opuesto al RGB (porque al imprimir en papel, se imprime en blanco)
+El color es opuesto al RGB porque un tema fisico                
+                Cian, Amarillo y Magenta
+
+
+  
+
+(00:45)
+  
+
+        El espacio de color HSV ordena el color
+  
+
+
+
+Operaciones Básicas en imágenes
+        Una imagen es una matriz, entonces se aplican oracion de matrices (artimeticas, logicas y umbralizacion)
+
+
+
+
+
+
+  
+
+
+
+        Operación suma
+                Cada pixel se suma
+  
+
+  
+
+
+
+        
+Umbralización
+        
+  
+
+
+
+Máscara
+                Operación de multiplicación en el canal alfa
+  
+
+
+
+Operaciones no tan básicas
+        Filtros convolucionales
+                Sobre poner con un filtro y recorrer la imagen
+                Una convolución se puede hacer en un audio, imagen, señal
+  
+
+
+
+  
+        La convoluciones sirven para:
+                Promedio
+                Gaussiano
+                Mediano
+  
+
+
+
+
+
+        Filtro promedio
+                Todos los valores de la vecindad pensan 1/9          
+  
+
+                El promedio entre blanco y negro es gris
+  
+
+
+
+        Filtro gaussiano
+                Valores grandes al medio, campana de gauss
+                Da importancia al píxel donde esta parado, vecindad cercana
+                La estructura de la imagen se mantiene
+  
+
+        
+        Filtro mediano
+                Ordena los píxeles de menor a mayor y obtener el valor de la mitad
+                Se pierden estructuras más rápido
+                No hay concepto de promedio
+                La mediana se hace en cada canal
+                El filtro mediano elimina ruido en la imagen
+  
+
+
+
+  
+
+
+
+  
+
+
+
+Operaciones morfológicas
+        Dilatación
+                
+  
+
+        Los 1 se agrandan
+  
+
+        
+        Erosión
+                
+  
+
+
+
+  
+
+
+
+Detección de bordes
+        A las matrices se pueden derivar espacialmente
+        Las derivadas en el eje horizontal obtienen los bordes verticales
+        
+  
+
+
+
+        Canny
+                Es un algoritmo para la detección de bordes
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+        Convolución con el kernel sovel para detectar los bordes
+  
+
+        En base a los diferentes kernel se obtiene diferentes imagenes
+  
+
+
+
+        Todo los anterior es image processing
+        Las operaciones con kernels funcionan, pero hasta cierto punto
+
+
+
+
+
+
+(01:22:00)
+Convolutional Neural Networks
+        Utilizan convoluciones
+        En RNC, los valores del kernel son asignados automáticamente
+
+
+  
+
+
+
+
+
+        Las RNC están inspirados en la visión del gato
+        Los bordes estimulan la visión de los gatos
+        
+  
+
+
+
+        
+  
+
+
+
+  
+
+
+
+Convolutional Neural Networks
+Se aplican distintos filtros en cada RNC para obtener caracteristicas
+        Es un tipo de DL comunmente utilizada en vision por computador
+        RN C aplica muchas convoluciones a la imagen para refinar la informacion buscada
+        
+  
+
+
+
+        Extrae las características de la imagen con una RNC
+        Los recuadros de en cada capa convolucional son canales o transformaciones
+        Antes las Feature Extraction se hacía manualmente
+        No se recomendable usar el filtro Promedio porque el color se degrada (negro a gris)
+        Reducir la imagen y aumentar los canales
+        MLP (Multilayer Perceptron)
+        Cuando hay error en la predicción, el error se propaga hacia atrás (hasta la imagen)
+        Todos los parámetros cambian, incluido los kernels
+        Es recomendable usar los pesos ya calculados
+                Hay entrenamientos desde cero (pesos aleatorios)
+Otro tipo de entrenamiento high tuning (los pesos ya existen), se agregan mas imagenes
+Otro tipo es transfer learning, se adaptan los pesos existentes (perros y gatos, perros y ovejas)
+Los hiperparametros son definidos por el desarrollador de software, no se ajustan durante el entrenamiento
+Los parámetros se ajustan automaticamente durante el entrenamiento 
+  
+
+        
+        Stride=Pasos
+        Es la cantidad de pasos del kernel alrededor de la matriz
+  
+
+        Padding
+Rellena los bordes de la imagen para que la salida sea del mismo tamaño que la entrada
+Existen métodos para rellenar bordes
+  
+
+
+
+
+
+  
+
+
+
+Max Pooling
+El tensor se reduce a la mitad por el stride
+Un tensor puede tener 3 o mas dimensiones
+        
+  
+
+        Max pooling
+Entrega más información        
+Solo pixeles con valores altos
+
+
+        Average Pooling
+        Pierde información
+  
+
+
+
+Arquitecturas más populares
+        Alguna arquitecturas realizan muchas operaciones de matrices (eje x)
+        Otras arquitecturas tienen mejor exactitud (accuracy, eje y)
+        Los circulos en gris son los parametros de cada arquitectura
+  
+
+
+
+Arquitectura LeNet 
+        Arquitectura para identificar dígitos manuscritos
+        Imagen de entrada de 32x32 p
+        El tamaño del kernel 5x5 (el tamaño lo definió el desarrollador de software)
+        x6 generará 6 canales
+        Stride=1, Padding=0 se pierde dos píxeles por cada lado
+        x16 genera 16 canales
+        5x5x16=400 convoluciones
+        Las 400 convoluciones se convierten vector de entrada de la RN
+Los hiperparametros (kernel, nro capas ocultas y salidas) son definidos por el desarrollador de software en base al experimento
+En general las convoluciones se hacen con stride 1
+En max pooling se busca reducir la dimensionalidad (stride 2)
+
+
+  
+
+
+
+
+
+  
+
+
+
+Arquitectura AlexNet
+        kernel de 11x11. (para ver más contexto. Concepto de campo receptivo)
+        stride 4, porque el kernel es un grande
+        x96 canales
+        Existen convoluciones continuas
+        1000 son las clases distintas del dataset imagenet
+        A nivel de arquitectura solo cambiaron los hiperparametros (kernels, stride y padding)
+        A nivel de implementación está más optimizado
+        En la investigacion se aplicaron conceptos (recepcion) y prueba-error
+  
+
+
+
+Arquitectura VGG16
+        16 es la cantidad de capas del modelo        
+        Al hacer convoluciones seguidas es como agrupar píxeles
+Los investigadores determinaron que es más eficiente tener varias convoluciones con kernel pequeños (no kernels grandes 11x11)
+11x11=121 (121 parámetros)
+3x3=9 + 3x3=9 (18 parámetros, reduce la cantidad de parámetros)
+Batch normalization, aplican después de la convolución
+En un punto deja de mejora VGG16
+  
+
+
+
+  
+
+
+
+Arquitectura GoogLeNet
+        Agregaron clasificadores intermedios
+        Empiezan a meter bloques con distintas salidas las cuales se concatenan
+        Cuando hay muchas capa el error no es preponderante en capas anteriores
+        El error se mide al final de la RN
+                Si hay muchas capas, no tienen mucha influencia en la funcion de coste
+        Tiene clasificadores intermedios auxiliares que afectan a los bloques cercanos
+                Existen funciones de coste en etapas intermedias (hacia atras)
+
+
+  
+
+        Hace varias convoluciones y los concatena al final 
+  
+
+
+
+Arquitectura ResNet
+        Residual Net
+        El gradiente se perdía por la existencia de muchas capas
+        En Resnet no se pierde el gradiente en cada salto (hacia atrás y adelante)
+La derivada de la suma, es la suma de las derivadas
+        Resnet puede tener 152 capas de profundidad por la acumulacion de las derivadas
+        
+        
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Arquitectura DenseNet
+  
+
+
+
+Visualización de los filtros
+  
+
+        En cada convolución la informacion es mas abstracta
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+Etapas de un proyecto de Vision por computadora
+  
+
+        Las etapas son las mismas que un proyecto de ML
+        Preprocesamiento
+                Mismo tamaño de imágenes
+                Frame por frame
+                Etiquetar las imágenes
+                Formatos de las imágenes
+                Dividir el dataset en train, test y validation
+                
+  
+
+        Conversión de videos
+                Llevar a imágenes
+
+
+        Etiquetas tipo Bounding Box
+                Encerrar la imagen en un rectángulo
+
+
+        Aumentación de datos
+                Apartir de una foto, rotar, cambiar de color, etc
+                Se generan carpetas distintas para clases distintas
+                Clasificación 
+                        Clasificar entre perros y gatos
+                        La salida es la clase (perro o gato)
+                        No conoce la localización
+                Detección
+                        En la imagen busca la localización de la imagen buscado
+                        
+        Division del dataset
+                Division de los datos en train, test, validation
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+        Recomendaciones para generar imagenes
+                Ver sitio web albumentation
+  
+
+
+
+
+
+Transfer Learning
+        A partir de un modelo ya entrenado, modificar los pesos
+  
+        
+
+
+
+
+
+
+
+
+
+
+  
+
+Un modelo que identificaba jugadores de futbol podría detectar otros tipos de jugadores
+  
+
+
+
+Preguntas
+        ¿Cómo funciona Transfer Learning?
+        Se cambia la arquitectura de la RN (sección classification)cuando existan otras clases
+  
+
+        Un ejemplo donde se pueda y no se pueda aplicar transfer learning
+        Usando el dataset imagenet que clasifica 1000 clases funciona TL
+        En imagenes de radiografica no funciona TL
+  
+
+        En caso utilizar las distintas arquitecturas
+                Las arquitecturas se usan como base
+                Resnet se usa mucho para problemas de segmentación
+
+
+        Se pueden usar diferentes arquitecturas
+                Se pueden usar diferentes arquitecturas para la solución de un problema
+                ChatGPT tiene varios clasificadores por detrás
+                Ejemplo:
+Detector de rostros
+En la primera arquitectura detectar y cortar el rostro
+En la segunda arquitectura enviar solo el recorte del rostro
+
+
+
+
+Repositorio del colab
+https://colab.research.google.com/github/felipesanmartin/TutorialCV/blob/master/TutorialCV.ipynb
+https://github.com/felipesanmartin/TutorialCV
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Preguntas y respuestas
+
+
+
+
+TAREA 1 (????)
+Estará disponible hoy en classroom
+
+
+Vocabulario
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CLASE 7 - SABADO 24/08/2024
+COMPUTER VISION II
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vocabulario
+Inteligencia Artificial
+Es la capacidad de una máquina para imitar las funciones cognitivas humanas para aprender y resolver problemas
+        Analogía: un robot que aprende y resuelve problemas
+        Ejemplo: Chatgpt, Siri, Alexa
+
+
+Machine Learning
+Subcampo e la IA donde los sistemas aprenden de datos y resuelven problemas sin ser programados explícitamente
+        Analogía: enseñar a un robot a reconocer gatos y perros mostrando muchas fotos
+        Ejemplo: sistema que filtra correo spam
+
+
+Deep Learning
+Subcampo de ML que usa redes neuronales con muchas capas para aprender de grandes cantidades de datos
+Analogía: Enseñar a un robot con un cerebro artificial capaz de reconocer radiografías
+        Ejemplo: Reconocimiento de voz como Google Assistance
+
+
+Generative AI
+Modelos de IA que generan contenido nuevo como texto, imagenes a partir de datos aprendidos
+        Analogia: Un robot que escribe poemas despues de leer muchos poemas
+        Ejemplo: Chatgpt, generacion de imagenes a partir de texto como DALL-E
+    
+Symbolic AI
+        Modelos de IA que utiliza reglas logicas y simbolos para resolver problemas
+Analogia: Un robot que resuelve un rompecabezas siguiendo reglas claras y definidas
+Ejemplo: Aplicacion de Symbolic AI en sistemas expertos que diagnostican enfermedades basados en reglas
+
+
+Perceptron (percepción)
+        Es una red neuronal artificial que puede considerarse un modelo de una sola neurona
+        Toma una entrada, aplica un peso y  produce una salida.
+        Inspirado en cómo los seres humanos perciben y procesan la información.
+        Analogía: Una neurona del cerebro (o una red neuronal de una sola neurona).
+        Máquina muy simple que recibe datos, realiza calculo y produce resultado
+        Ejemplo: Una neurona que decide si algo es cierto o falso
+
+
+Backpropagation (Propagacion hacia atras)
+        Algoritmo para ajustar los pesos(w) de una red neuronal
+        Analogia: Correr errores de un examen para aprender y mejorar en futuras pruebas
+Ejemplo: Ajustar una red neuronal que clasifica imágenes de animales para mejorar su precision
+
+
+Convolutional Neural Networks (CNN)
+Tipo de red neuronal especializada en procesar imágenes. Los datos tienen estructura de grilla.
+        Analogía: Filtros de Instagram
+        Ejemplo: Detección de objetos en fotografías. Identificar personas.
+
+
+ImageNet
+Es una base de datos de imágenes que se usan para evaluar modelos de visión por computador
+        Analogía: Álbum de fotos agrupados por categorías
+        Ejemplo: Imágenes para probar la presión de modelos de visión por computador
+
+
+Arquitectura vs Modelo
+La arquitectura se refiere a la estructura o diseño general de la red neuronal. Define las capas, como fluyen los datos y como se conectan las neuronas entre si.
+Ejemplos: Arquitectura AlexNet, Arquitectura Transformers
+
+
+El modelo es una implementación concreta de una arquitectura, entrenada con un conjunto de datos particular, ajustando los pesos y parametros.
+Ejemplos: Modelo GPT-3 basado en la Arquitectura Transformers, Modelo BERT basado en la Arquitectura Transformers
+
+
+Analogía: La arquitectura es como el plano de un edificio y el modelo es el edificio terminado siguiente el plano.        
+
+
+AlexNet
+Arquitectura de red neural profunda que revolución la visión por computadora al ganar una competencia de reconocimiento de imágenes
+        Analogía: Cámara que distingue entre miles de objetos
+        Ejemplo: Red neuronal para clasificar imágenes de animales en categorías
+
+
+Transformers
+Arquitectura de red neuronal para manejar secuencia de datos y entender contextos. Utilizado en NLP
+        Analogía: Traductor de texto que puede entender contextos
+        Ejemplo: Traducir textos entre idiomas. Generar texto basado en un contexto
+
+
+Bert
+Modelo de deep learning (realiza una tarea específica a partir de un algoritmo) basado en la arquitectura Transformer (texto y contextos) que entiende el contexto en una oración
+        Analogía: Un lector que comprende el contexto y significado
+        Ejemplo: Google utiliza Bert para comprender búsquedas
+
+
+GPT-3
+Modelo de deep learning(realiza una tarea específica a partir de un algoritmo) basado en la arquitectura transformer de lenguaje Avanzado que genera texto
+Analogía: Persona que escribe historias y responde preguntas basado en amplio conocimiento
+        Ejemplo: Robot que genera contenido a partir de una frase
+
+
+Funcion de activacion
+        Función matemática que decide si una neurona debe activarse o no
+        Analogía: Un interruptor de luz que decide si enciende o apaga la luz
+Ejemplo: Una señal eléctrica es recibida por las dendritas y si esta señal supera un cierto umbral, la neurona se activa
+            
+Sigmoid
+Funcion de activacion que convierte un valor de entrada en un valor de salida entre 0 y 1
+Analogía: Interruptor de luz que atenúa la luz gradualmente en lugar en encender o apagar completamente
+        Ejemplo: Clasificar si un correo es un span o no con una probabilidad entre 0 y 1
+    
+Tanh
+Funcion de activacion que convierte un valor de entrada en un valor de salida entre -1 y 1
+        Analogía: Termómetro que muestra temperaturas negativas y positivas
+        Ejemplo: Normalizar las salida de una red neuronal entre -1 y 1
+
+
+Relu
+Función de activación que permite (rectifica) que solo los valores positivos pasen a través de ellas
+        Analogía: Válvula que deja pasar el agua solo si la presión es suficiente
+        Ejemplo: Uso en redes neuronales profundas
+
+
+Leaky Rely (Leaky=Agujereada)
+Funcion de activacion variante de Relu que permite que una pequeña cantidad de valores negativos pasen a través de la función
+        Analogía: Válvula que deja pasar el agua incluso si la presión es baja
+        Ejemplo: Evita que las neuronas se mueran durante el entrenamiento
+
+
+Maxout
+        Función de activación que selecciona el valor máximo de varias entradas
+        Analogía: Seleccionar el valor más alto de un conjunto de números
+Ejemplo: Uso en redes neuronales para mejorar la precisión y la capacidad de aprendizaje
+
+
+ELU (Exponential Linear Unit)
+Funcion de activacion que suaviza las salidas negativas para mejorar la estabilidad del modelo
+        Analogía: Válvula que se ajusta automáticamente dependiendo de la presión
+        Ejemplo: Ayuda a que el modelo se entrene eficientemente de manera más eficiente
+
+
+Softmax
+Funcion de activacion que convierte un conjunto de valores en un conjunto de probabilidades
+        Analogía: Aplicar SoftMax a las votaciones de candidatos presidenciales
+        Ejemplo: Usada en la capa final de una red neuronal  para la clasificación multiclase
+
+
+Bias (del inglés Sesgo o inclinación)
+Nivelador, término adicional de una red neuronal que ayuda a ajustar la salida del modelo
+        Analogía: ajustar la base de una mesa para que quede nivelada
+Ejemplo: Supongamos que estás entrenando un modelo para predecir si una persona esta feliz o triste basandose en su tono de voz
+El bias seria como el ajuste que el modelo hace para capturar mejor las situaciones en la que una persona suena feliz.
+
+
+Red Neuronal
+Conjunto de neuronas artificiales que trabajan juntas para aprender y tomar decisiones
+        Analogía: Un cerebro dentro de una computadora
+        Ejemplo: Red neuronal que reconoce dígitos escritos a mano
+
+
+Loss Function (Metricas para deep learning)
+        Función matemático que mide la precisión de predicción de un modelo
+        Analogía: Métricas para modelos de machine learning
+Ejemplo: Métrica Mean Square Error (MSE), Binary Cross Entropy Loss (BCEL), Cross Entropy Loss (CEL)
+
+
+Hiper Parámetro
+Son parámetros que se configuran antes de que comience el proceso de entrenamiento del modelo. 
+Analogía: Son como reglas que establecen antes de comenzar un proyecto (tiempo, herramientas)
+Ejemplo: Hiperparametros como Learning rate, número de capas de una red neural, numero de épocas
+
+
+Learning Rate (Tasa de aprendizaje)
+Es un hiper parámetro que determina cuánto se ajustan los pesos del modelo (w)  durante el proceso de entrenamiento en cada iteración. Indica que tan grande es el paso que da el modelo al minimizar la funcion de perdida.
+Analogia: Bajar una colina para llegar al punto mas bajo. Si das pasos muy grandes podrias pasar el punto mas bajo de la colina. Si das pasos muy pequenos, tomara mucho mas tiempo en llegar al fonde de la colina.
+Ejemplo: En deep learning si el learning rate es muy grande, el modelo podria nunca converger. Si es muy pequeno, el modelo podria tardar mucho tiempo en entrenar.
+
+
+GPU (Unidad de Procesamiento Grafico)
+Es un tipo de procesador especializado que maneja cálculos en paralelo, útil para el procesamiento de imágenes y entrenamiento de modelos de deep learning.
+Analogía: Grupo de trabajadores eficientes que pueden hacer muchas tareas al mismo tiempo.
+        Ejemplo: Tarjeta grafica del computador
+
+
+TPU (Unidad de procesamiento de Tensor)
+Es un tipo de procesador desarrollado por Google y diseñado para acelerar entrenamientos de modelos de machine learning y deep learning especialmente aquellas basados en tensorflow
+Analogia: Grupo de trabajadores especializados eficientes
+Ejemplo:  Entrenamiento de modelo de Google Cloud
+
+
+Tensor
+Es una estructura de datos similar a un vector o matriz. Permiten manejar datos de n dimensiones y son la base de muchas operaciones en deep learning.
+Analogía: Procesar la matriz de una imagen o Procesar el tensor de una imagen
+Ejemplo: Guardar información en un vector o matriz de java
+        
+Derivada
+        Mayor derivada el aprendizaje es mejor
+        La derivada es la inclinación de la fusión
+
+
+Integral
+
+
+Gradiente

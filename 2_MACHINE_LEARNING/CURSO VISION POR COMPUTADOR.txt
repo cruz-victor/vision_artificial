@@ -2777,14 +2777,15 @@ Preguntas y Respuestas
 4. Que es una problemática social (ODS) 
 
 
-        
+
+
+
+
 
 
 CLASE 5 - MIERCOLES 21/08/2024 (X)
 REPASO FUNDAMENTOS DEEP LEARNING 1
 (NO HAY GRABACION)
-
-
 
 
 
@@ -2817,33 +2818,48 @@ Anastasia, Productos basados en machine learning
 
 
 
-Aplicaciones
+Aplicaciones de Visión Por Computador
         Automóviles
         Salud
-        Laboratorio
-        
+        Laboratorios
+        En cualquier lugar donde requiera simular el ojo humano
+
+
+Visión por computador
+Campo de la AI enfocada al desarrollo de algoritmos que permitan comprender el contenido en imágenes y videos
   
 
 
 
-
-
-
-
-
-
+Campo interdisciplinar
+        Procesamiento de imágenes
+        Detección de patrones
+        Machine Learning
   
 
 
 
-
-
+Historia
+        Tesla autopilot
+        Pinterest
+        Amazon Go
+        Arquitecturas de redes neuronales convolucionales
+AlexNet, VGG16, RCNN, GoogleNet, UNet, ResNet, Faster RCNN, SDD, DeepLab, Yolo, SeNet
   
 
 
 
-
-
+Aplicaciones de Computer Vision
+        OCR para la lectura de pasaportes
+        Contador de palabras en un texto
+        Identificación de objetos
+        Reconocimiento de rostros
+        Detección de matrículas
+        Coloreado de imágenes
+        Segmentación de objetos
+        Identificación de frutas dañadas
+        Análisis de radiografias y tomografias
+        Detección de personas sin barbijos
   
 
 
@@ -2869,94 +2885,94 @@ Aplicaciones
 
 
 Conceptos básicos
+        Procesamiento de imágenes
+                La entrada es una imagen y la salida es otra imagen
+                Aplica transformaciones en la imagen
   
 
 Computer Vision
-        Se extrae información de las imágenes
+                Extrae información de las imágenes
   
 
 
 
 Deep Learning
-        Deteccion de objetos
+                Área de estudio dentro de Machine Learning
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 Imagen
-        Es una representacion de algun objeto        
+        Una imagen es una representacion de algun objeto        
+        En computer vision la imagen se representa en una matriz por capas
+  
+
 
 
   
 
-        Imagen binaria
+
+
   
 
+        Representación de una imagen en forma de matriz
+
+
+  
+
+        Representación de una imagen en color (RGB)
+  
+
+
+
+Tipos de imágenes
+        Binaria
+                Es una imagen en dos colores (blanco y negro)
+        Escala de grises
+                Es una imagen en escala de grises
+        Color
+                Es una imagen a color
         
-  
-
-        Representacion de una imagen en color (RGB)
-  
+                
 
 
 
-  
+
+
 
 
 
   
+
+
 
 Espacios de color
         RGB
+                Red-Green-Blue
                 Es un cubo de colores de 24 bits
                 No todos los colores son visibles por nosotros
-                
+                256 niveles de color por canal
   
 
 
 
         HSV
-                En el Hue/matiz se codifica el color
-                La saturación es el brillo
+                Hue-Saturation-Brightness
+                Matiz-Saturación-Brillo
+                
   
 
 
 
         CMYK
+                Cian-Magenta-Amarillo-Negro
                 Espacio de color usado en impresion
 Es totalmente opuesto al RGB (porque al imprimir en papel, se imprime en blanco)
-El color es opuesto al RGB porque un tema fisico                
-                Cian, Amarillo y Magenta
+El color es opuesto al RGB porque un tema físico                
 
 
+Código fuente
+        (?)
   
 
 (00:45)
@@ -2968,17 +2984,19 @@ El color es opuesto al RGB porque un tema fisico
 
 
 Operaciones Básicas en imágenes
-        Una imagen es una matriz, entonces se aplican oracion de matrices (artimeticas, logicas y umbralizacion)
+        Una imagen es una matriz
+A la matriz se aplican operaciones de matrices (aritméticas, lógicas y umbralización)
 
 
-
-
-
-
+Tipos de operaciones
+        Operaciones aritméticas (suma, resta, multiplicación, división)
+        Operaciones lógicas (AND, OR, XOR, NOT)
+        Umbralización (número que se utiliza como parámetro)
   
 
 
 
+Operaciones artimeticas
         Operación suma
                 Cada pixel se suma
   
@@ -2989,12 +3007,14 @@ Operaciones Básicas en imágenes
 
         
 Umbralización
-        
+        El umbral es el valor en el cual el histograma de una imagen se divide en dos
   
 
 
 
 Máscara
+        La máscara es una capa que permite ocultar o revelar partes de una imagen
+Analogía: la máscara en imagen es similar a la máscara de un luchador
                 Operación de multiplicación en el canal alfa
   
 
@@ -3002,25 +3022,28 @@ Máscara
 
 Operaciones no tan básicas
         Filtros convolucionales
-                Sobre poner con un filtro y recorrer la imagen
+                La convolución es una palabra que significa combinar algo con otro cosa
+Combinar la señal del audio con un filtro del ecualizador, el resultado es el audio con el efecto del ecualizador
                 Una convolución se puede hacer en un audio, imagen, señal
   
 
-
-
+        Padding
+                Es el relleno que se aplica a la imagen
   
-        La convoluciones sirven para:
-                Promedio
-                Gaussiano
-                Mediano
+        Filtros convoluciones
+                Promedio: Suaviza la imagen, difumina los bordes
+                Gaussiano: Suaviza la imagen preservando los bordes
+                Mediano: Elimina el ruido sin difuminar
+                
   
-
-
 
 
 
         Filtro promedio
-                Todos los valores de la vecindad pensan 1/9          
+                Suaviza la imagen
+                Difumina bordes (negro → gris ← blanco)
+  
+        
   
 
                 El promedio entre blanco y negro es gris
@@ -3029,6 +3052,7 @@ Operaciones no tan básicas
 
 
         Filtro gaussiano
+                Suaviza la imagen pero conserva los bordes
                 Valores grandes al medio, campana de gauss
                 Da importancia al píxel donde esta parado, vecindad cercana
                 La estructura de la imagen se mantiene
@@ -3036,11 +3060,10 @@ Operaciones no tan básicas
 
         
         Filtro mediano
+                Elimina ruido en la imagen
                 Ordena los píxeles de menor a mayor y obtener el valor de la mitad
-                Se pierden estructuras más rápido
-                No hay concepto de promedio
-                La mediana se hace en cada canal
-                El filtro mediano elimina ruido en la imagen
+                Eficaz con el ruido “sal y pimienta‘
+                                
   
 
 
@@ -3054,8 +3077,12 @@ Operaciones no tan básicas
 
 
 Operaciones morfológicas
-        Dilatación
-                
+Son operaciones básicas en el procesamiento de imágenes, que se utilizan para modificar la forma y el tamaño de las estructuras presentes en una imagen binaria o escala de grises.
+
+
+        Dilatación                
+                Aumenta el tamaño de los objetos, expandiendo los bordes
+                Cierra pequeños agujeros dentro de los objetos
   
 
         Los 1 se agrandan
@@ -3063,7 +3090,8 @@ Operaciones morfológicas
 
         
         Erosión
-                
+                Reduce el tamaño de los objetos
+                Separa objets que estan conectados por conexiones finas
   
 
 
@@ -3073,6 +3101,11 @@ Operaciones morfológicas
 
 
 Detección de bordes
+        Prewitt
+        Sobel
+        Canny
+
+
         A las matrices se pueden derivar espacialmente
         Las derivadas en el eje horizontal obtienen los bordes verticales
         
@@ -3094,8 +3127,9 @@ Detección de bordes
 
 
 
-
-
+Representación digital de las imágenes
+        Las imágenes se representan en forma de matrices
+        La cantidad de matrices depende de la cantidad de canales (RGB)
   
 
 
@@ -3105,13 +3139,30 @@ Detección de bordes
         Convolución con el kernel sovel para detectar los bordes
   
 
-        En base a los diferentes kernel se obtiene diferentes imagenes
+
+
+Tipos de filtros
+        En base a los diferentes kernel se obtiene diferentes imágenes
+        
+        Laplaciano de la gaussiana
+        Filtro gaussiano
+        1ra derivada en y
+        1ra derivada en x
+        Sharpen
+        2da derivada diagonal
+        2da derivada en x,y
+        Filtro promedio
+
+
+        
+
+
   
 
 
 
         Todo los anterior es image processing
-        Las operaciones con kernels funcionan, pero hasta cierto punto
+        Las operaciones con kernels o filtros funcionan, pero hasta cierto punto
 
 
 
@@ -3147,41 +3198,41 @@ Convolutional Neural Networks
 
 
 Convolutional Neural Networks
-Se aplican distintos filtros en cada RNC para obtener caracteristicas
-        Es un tipo de DL comunmente utilizada en vision por computador
-        RN C aplica muchas convoluciones a la imagen para refinar la informacion buscada
+Se aplican distintos filtros en cada convolución para obtener características
+        Es un tipo de DL comúnmente utilizada en visión por computador
+        RNC aplica muchas convoluciones a la imagen para refinar la información buscada
         
   
 
 
 
-        Extrae las características de la imagen con una RNC
+        Extrae las características de la imagen con convoluciones
         Los recuadros de en cada capa convolucional son canales o transformaciones
         Antes las Feature Extraction se hacía manualmente
         No se recomendable usar el filtro Promedio porque el color se degrada (negro a gris)
         Reducir la imagen y aumentar los canales
-        MLP (Multilayer Perceptron)
+        MLP (Multilayer Perceptron) es la RN con varias capas ocultas
         Cuando hay error en la predicción, el error se propaga hacia atrás (hasta la imagen)
         Todos los parámetros cambian, incluido los kernels
-        Es recomendable usar los pesos ya calculados
+        Transfer Learning, es recomendable usar los pesos ya calculados
                 Hay entrenamientos desde cero (pesos aleatorios)
 Otro tipo de entrenamiento high tuning (los pesos ya existen), se agregan mas imagenes
 Otro tipo es transfer learning, se adaptan los pesos existentes (perros y gatos, perros y ovejas)
 Los hiperparametros son definidos por el desarrollador de software, no se ajustan durante el entrenamiento
-Los parámetros se ajustan automaticamente durante el entrenamiento 
+Los parámetros se ajustan automáticamente durante el entrenamiento 
   
 
         
-        Stride=Pasos
-        Es la cantidad de pasos del kernel alrededor de la matriz
+        Stride
+Paso
+                Es el tamaño del movimiento del kernel alrededor de la matriz
   
 
         Padding
+                Relleno
 Rellena los bordes de la imagen para que la salida sea del mismo tamaño que la entrada
 Existen métodos para rellenar bordes
   
-
-
 
 
 
@@ -3190,18 +3241,23 @@ Existen métodos para rellenar bordes
 
 
 Max Pooling
+        Max=Máximo; Pooling=Agrupación
+        Es una técnica utilizada en RNC para reducir la dimensión de la imagen
+        Conserva la información más importante (máximo valor del pixel)
+        Disminuye la cantidad de parámetros
 El tensor se reduce a la mitad por el stride
-Un tensor puede tener 3 o mas dimensiones
+Un tensor puede tener 3 o más dimensiones
+Ventajas:
+Reducción de dimensiones
+Enfoque en características relevantes
+Disminución de parámetros
+        
         
   
 
-        Max pooling
-Entrega más información        
-Solo pixeles con valores altos
-
-
-        Average Pooling
-        Pierde información
+        Tipos de pooling
+Max pooling (más información, valor máximo de pixel)
+        Average Pooling (menos información, valor promedio de pixel)
   
 
 
@@ -3209,7 +3265,7 @@ Solo pixeles con valores altos
 Arquitecturas más populares
         Alguna arquitecturas realizan muchas operaciones de matrices (eje x)
         Otras arquitecturas tienen mejor exactitud (accuracy, eje y)
-        Los circulos en gris son los parametros de cada arquitectura
+        Los círculos en gris son los parámetros de cada arquitectura
   
 
 
@@ -3246,14 +3302,14 @@ Arquitectura AlexNet
         1000 son las clases distintas del dataset imagenet
         A nivel de arquitectura solo cambiaron los hiperparametros (kernels, stride y padding)
         A nivel de implementación está más optimizado
-        En la investigacion se aplicaron conceptos (recepcion) y prueba-error
+        En la investigación se aplicaron conceptos (recepción) y prueba-error
   
 
 
 
 Arquitectura VGG16
         16 es la cantidad de capas del modelo        
-        Al hacer convoluciones seguidas es como agrupar píxeles
+Al hacer convoluciones seguidas es como agrupar píxeles (si, pero no reduce la dimensión, esto se logra con max-pooling)
 Los investigadores determinaron que es más eficiente tener varias convoluciones con kernel pequeños (no kernels grandes 11x11)
 11x11=121 (121 parámetros)
 3x3=9 + 3x3=9 (18 parámetros, reduce la cantidad de parámetros)
@@ -3272,9 +3328,9 @@ Arquitectura GoogLeNet
         Empiezan a meter bloques con distintas salidas las cuales se concatenan
         Cuando hay muchas capa el error no es preponderante en capas anteriores
         El error se mide al final de la RN
-                Si hay muchas capas, no tienen mucha influencia en la funcion de coste
+                Si hay muchas capas, no tienen mucha influencia en la función de coste
         Tiene clasificadores intermedios auxiliares que afectan a los bloques cercanos
-                Existen funciones de coste en etapas intermedias (hacia atras)
+                Existen funciones de coste en etapas intermedias (hacia atrás)
 
 
   
@@ -3289,9 +3345,7 @@ Arquitectura ResNet
         El gradiente se perdía por la existencia de muchas capas
         En Resnet no se pierde el gradiente en cada salto (hacia atrás y adelante)
 La derivada de la suma, es la suma de las derivadas
-        Resnet puede tener 152 capas de profundidad por la acumulacion de las derivadas
-        
-        
+        Resnet puede tener 152 capas de profundidad por la acumulacion de las derivada
 
 
   
@@ -3301,18 +3355,6 @@ La derivada de la suma, es la suma de las derivadas
 
 
   
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -3321,18 +3363,23 @@ Arquitectura DenseNet
 
 
 
-Visualización de los filtros
+
+
+
+
+
+
+
+
+
+
+
+
+Visualización de imágenes con diferentes filtros/kernels
+        En cada convolución la información es más abstracta
+        Tantas mezclas o combinaciones con filtros la imagenes se vuelve más borrosa
   
 
-        En cada convolución la informacion es mas abstracta
-
-
-
-
-
-
-
-
 
 
   
@@ -3341,7 +3388,7 @@ Visualización de los filtros
 
 
 
-Etapas de un proyecto de Vision por computadora
+Etapas de un proyecto de Visión por computadora
   
 
         Las etapas son las mismas que un proyecto de ML
@@ -3351,18 +3398,21 @@ Etapas de un proyecto de Vision por computadora
                 Etiquetar las imágenes
                 Formatos de las imágenes
                 Dividir el dataset en train, test y validation
+        Modelado
+        Post-procesamiento
                 
   
 
         Conversión de videos
-                Llevar a imágenes
+                Obtener imágenes de un video
 
 
         Etiquetas tipo Bounding Box
+                Cuadro delimitador
                 Encerrar la imagen en un rectángulo
 
 
-        Aumentación de datos
+        Generación de datos
                 Apartir de una foto, rotar, cambiar de color, etc
                 Se generan carpetas distintas para clases distintas
                 Clasificación 
@@ -3370,10 +3420,10 @@ Etapas de un proyecto de Vision por computadora
                         La salida es la clase (perro o gato)
                         No conoce la localización
                 Detección
-                        En la imagen busca la localización de la imagen buscado
+                        En la imagen busca la localización de una imagen
                         
-        Division del dataset
-                Division de los datos en train, test, validation
+        División del dataset
+                División de los datos en train, test, validation
   
 
 
@@ -3390,7 +3440,7 @@ Etapas de un proyecto de Vision por computadora
 
 
 
-        Recomendaciones para generar imagenes
+        Recomendaciones para generar imágenes
                 Ver sitio web albumentation
   
 
@@ -3414,27 +3464,24 @@ Transfer Learning
 
   
 
-Un modelo que identificaba jugadores de futbol podría detectar otros tipos de jugadores
+Un modelo que identificaba jugadores de fútbol podría detectar otros tipos de jugadores
   
 
 
 
-Preguntas
-        ¿Cómo funciona Transfer Learning?
+Preguntas en clases
+1. ¿Cómo funciona Transfer Learning?
         Se cambia la arquitectura de la RN (sección classification)cuando existan otras clases
   
 
-        Un ejemplo donde se pueda y no se pueda aplicar transfer learning
+2. Un ejemplo donde se pueda y no se pueda aplicar transfer learning
         Usando el dataset imagenet que clasifica 1000 clases funciona TL
-        En imagenes de radiografica no funciona TL
+En imágenes de radiográfica no funciona TL (por el momento hasta que se tenga una base de datos de radiografías con problemas óseos)
   
 
-        En caso utilizar las distintas arquitecturas
+3. En caso utilizar las distintas arquitecturas
                 Las arquitecturas se usan como base
                 Resnet se usa mucho para problemas de segmentación
-
-
-        Se pueden usar diferentes arquitecturas
                 Se pueden usar diferentes arquitecturas para la solución de un problema
                 ChatGPT tiene varios clasificadores por detrás
                 Ejemplo:
@@ -3448,8 +3495,6 @@ En la segunda arquitectura enviar solo el recorte del rostro
 Repositorio del colab
 https://colab.research.google.com/github/felipesanmartin/TutorialCV/blob/master/TutorialCV.ipynb
 https://github.com/felipesanmartin/TutorialCV
-
-
   
 
 
@@ -3460,30 +3505,162 @@ https://github.com/felipesanmartin/TutorialCV
 
 
 
-
-
-
-
-
-
-
-
-Preguntas y respuestas
-
-
-
-
-TAREA 1 (????)
+Tarea 1 
+(?)
 Estará disponible hoy en classroom
 
 
+
+
 Vocabulario
+1. Tipos de Imágenes
+Binaria: Imagen en blanco y negro donde cada píxel es 0 o 1, representando un color (negro o blanco).
+Escala de Grises: Imagen donde cada píxel tiene un valor entre 0 (negro) y 255 (blanco), con diferentes tonos de gris.
+Color: Imagen en la que cada píxel tiene valores en diferentes canales de color (como RGB), que combinados dan el color final.
 
 
+2. Espacios de Color
+        RGB: Representa imágenes en colores combinando rojo, verde y azul.
+HSV: Representa colores en términos de tono, saturación y valor, útil para manipular colores.
+CMYK: Espacio de color usado en impresión, compuesto por cian, magenta, amarillo y negro.
 
 
+3. Operaciones Básicas en Imágenes (*)
+        Aritméticas: Sumar, restar, multiplicar, o dividir imágenes píxel por píxel.
+        Lógicas: Operaciones AND, OR, NOT sobre imágenes binarias.
+        Umbralización: Convertir una imagen en binaria según un valor de umbral.
+        Máscara: Aplicar un filtro a ciertas áreas de la imagen.
 
 
+4. Filtros Convolucionales(*)
+        Promedio: Suaviza la imagen promediando los valores de los píxeles vecinos.
+        Gaussiano: Suaviza la imagen usando una distribución gaussiana, reduce el ruido.
+Mediano: Reemplaza el valor de cada píxel por el valor mediano de los píxeles vecinos.
+
+
+5. Tipos de Filtros
+        Laplaciano de la Gaussiana: Detecta bordes aplicando primero un filtro gaussiano.
+        Filtro Gaussiano: Suaviza la imagen para reducir el ruido.
+        1ra Derivada en X e Y: Detecta cambios en intensidad, útil para encontrar bordes.
+        Sharpen: Realza los bordes en la imagen.
+        2da Derivada Diagonal y en X, Y: Destaca las curvas y bordes en la imagen.
+        Filtro Promedio: Similar al filtro de promedio, suaviza la imagen.
+
+
+6. Operaciones Morfológicas
+        Dilatación: Expande las regiones blancas de una imagen binaria.
+        Erosión: Reduce las regiones blancas, útil para eliminar ruido.
+
+
+7. Derivación Espacial (*)
+Calcula cómo cambia la intensidad de la imagen en diferentes direcciones, útil para detectar bordes.
+
+
+8. Detección de Bordes (*)
+        Prewitt: Detecta bordes usando diferencias en intensidad.
+        Sobel: Similar a Prewitt, pero con más peso en la dirección de los bordes.
+        Canny: Un método más avanzado y preciso para detectar bordes.
+
+
+9. Redes Neuronales Convolucionales (CNN)
+Un tipo de red neuronal diseñada para procesar imágenes, reconoce patrones como bordes, texturas, etc.
+
+
+10. Transfer Learning (*)
+Usar un modelo pre entrenado en una gran cantidad de datos para resolver un nuevo problema con menos datos.
+
+
+11. Kernel
+Una pequeña matriz que se desplaza sobre una imagen para aplicar operaciones como convolución.
+
+
+12. Pooling
+Una operación que reduce el tamaño de la imagen o las características mientras conserva la información importante.
+
+
+13. Layer Flatten
+Convierte las matrices de características en un vector unidimensional, preparado para pasar a una capa totalmente conectada.
+
+
+14. Fully Connected Layer
+Una capa donde cada neurona está conectada a todas las neuronas de la capa anterior.
+
+
+15. Convolución
+Un proceso donde se aplica un kernel a la imagen para extraer características como bordes o texturas.
+
+
+16. Stride
+El número de píxeles que se desplaza el kernel sobre la imagen. Un stride mayor significa menos solapamiento y una salida más pequeña.
+
+
+17. Padding
+Añadir píxeles extra (generalmente negros) alrededor de la imagen para evitar que el kernel se salga de los bordes.
+
+
+18. Métodos de Padding
+        Valid: No se agrega padding, la imagen se reduce de tamaño.
+Same: Se agrega suficiente padding para que la salida tenga el mismo tamaño que la entrada.
+
+
+19. Tipos de Pooling
+        Max Pooling: Toma el valor máximo dentro de una ventana de la imagen.
+        Average Pooling: Toma el valor promedio dentro de una ventana.
+
+
+20. Max Pooling
+Una técnica para reducir las dimensiones de una imagen tomando el valor máximo en cada ventana de la imagen.
+
+
+21. Average Pooling
+Similar al max pooling, pero toma el promedio en lugar del valor máximo.
+
+
+22. Cuándo usar Max Pooling y Average Pooling
+        Max Pooling: Para conservar las características más prominentes.
+Average Pooling: Para una representación más suave y menos sensible a los valores extremos.
+
+
+23. Arquitecturas de CNN (LeNet, AlexNet, VGG16, GoogLeNet, ResNet, DenseNet) (*)(*)
+Diferentes arquitecturas de CNN utilizadas para tareas de clasificación de imágenes con diferentes profundidades y complejidades.
+
+
+24. Diferencias entre Arquitecturas de CNN (*)
+        LeNet: Arquitectura simple y antigua.
+        AlexNet: Primera en ganar popularidad en ImageNet.
+        VGG16: Muy profunda, con muchas capas.
+        GoogLeNet: Introduce la idea de "inception blocks" para mejorar el rendimiento.
+        ResNet: Introduce "skip connections" para resolver problemas de degradación.
+DenseNet: Conecta cada capa a todas las capas posteriores para mejorar la reutilización de características.
+
+
+25. Ejemplo Max Pooling
+En una CNN, max pooling se aplica después de una capa de convolución para reducir la dimensión de la salida. Ejemplo: 32x32 -> 28x28 -> 14x14 -> 10x10 -> 1x1.
+
+
+26. Campo Receptivo
+El área de la imagen de entrada que afecta a una neurona en la capa de salida de la red.
+
+
+27. Qué significa Conv 96x11x11 stride 4 (*)
+        Conv: Una operación de convolución.
+        96: El número de filtros.
+        11x11: El tamaño del kernel.
+        Stride 4: El desplazamiento del kernel sobre la imagen.
+
+
+28. Batch Normalization (*)
+Una técnica para normalizar la salida de una capa de red, lo que acelera el entrenamiento y estabiliza el modelo.
+
+
+29. Etapas de un Proyecto de Visión por Computador (*)
+        Adquisición de Imágenes: Recolectar imágenes relevantes.
+        Preprocesamiento: Ajustar las imágenes para que sean utilizables (redimensionamiento, normalización, etc.). 
+        Segmentación: Dividir la imagen en partes importantes.
+        Extracción de Características: Identificar características clave.
+        Clasificación: Asignar etiquetas a las imágenes según las características detectadas.
+        Postprocesamiento: Mejorar la salida del modelo.
+        Evaluación: Medir el rendimiento del modelo y ajustar si es necesario.
 
 
 

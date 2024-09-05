@@ -3671,6 +3671,406 @@ Una técnica para normalizar la salida de una capa de red, lo que acelera el ent
 
 CLASE 7 - SABADO 24/08/2024
 COMPUTER VISION II
+Notebook PyTorch Básico: https://drive.google.com/file/d/1JJRpvev0MwqKcV_LcsJ9Q6LVxg15Y3jE/view?usp=sharing
+Notebook Convnet sencillo: https://drive.google.com/file/d/17tInDql6_ESQVmK_N5jaJ1XicN6_6pxD/view?usp=sharing
+Notebook Uso modelo entrenado:
+https://drive.google.com/file/d/eqfBBypcyk4X8uOpe31RspXL-_LW07h4/view?usp=drive_link
+
+
+Github: dlwpt-code
+https://github.com/deep-learning-with-pytorch/dlwpt-code
+Colab: train-yolov8 object deteccion o n custom dataset
+https://colab.research.google.com/drive/1RslLs7Wl7a1_a0lMs_YRzmp-SlKh-9gd?usp=drive_link, 
+Colab: train-yolov8 object segmentation on custom dataset
+https://colab.research.google.com/drive/1APDIxkK1W5w46L5_7ue1nYCDsEDofg1s?usp=drive_link
+roboflow: rubber-ducks
+https://universe.roboflow.com/patos/rubber-ducks/dataset/2
+github: roboflow notebooks
+https://github.com/roboflow/notebooks
+
+
+
+
+
+
+
+
+
+
+
+
+Código: Basic_PyTorch_1.pynb
+PyTorch
+        Facilita el manejo de tensores
+        Se pueden multiplicar tensores
+
+
+Cuda
+        La GPU tiene muchos procesadores menos potentes
+        En la GPU se pueden procesar en paralelo
+        En linux esta muy bien desarrollado los drivers de nvidia
+
+
+Autograd
+        Hace el cálculo de gradiente
+  
+
+
+
+Código: Modelo_Conv2D_sencillo_PyTorch.ipynb
+batch_size
+        tamaño del grupo de imágenes
+
+
+La arquitectura
+        Experimental, conceptos
+        Arquitecturas existentes
+
+
+Modelos
+        Se pueden correr varios modelos al mismo tiempo
+        Depende del hardware
+        El modelo siempre devuelve una respuesta dependiendo de la clase
+                Si pasas un fondo negro, el modelo devolvera alguna clase de animal
+  
+
+
+
+Código: Uso_de_modelo_entrenado_PyTorch.ipynb
+
+
+  
+
+Aplicacion de Transfer Learning
+        Se tiene un modelo muy bueno, entrenando solo las capas de salida
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+Viola Jones
+        Las imágenes son del tamaño piramidal (de grande a pequeño)
+        El algoritmo era ligero y se ejecutiva en cámaras antiguas
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+R-CNN
+        Detector en dos etapas
+        1ra etapa propone las regiones
+        2da etapa hace la detección
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+        Yolo utiliza el dataset COCO
+        Para agregar otras clase usar Transfer Learning
+        YOLO es supervisado
+        Las imágenes se etiquetan con un formato de YOLO
+        
+  
+
+
+
+
+
+  
+
+(01:55)
+Fully Convolutional Network (FCN)
+En toda la red solo se tiene convoluciones
+        Los valores de salida son los pixeles de la clase
+        Al final al agrandar la imagen se pierde información
+La segmentación era buena, pero se perdían pixeles        
+  
+
+
+
+UNet
+        Se lleva la información de decodificación en la codificación
+        
+  
+
+
+
+YOLACT
+        Se tienen prototipos de segmentaciones
+        Los prototipos de obtiene en base a la función de costo
+  
+
+
+
+(02:07)
+Segment Anything Model
+        Modelo de segmentación de facebook
+        Solo segmenta, no clasifica
+        
+  
+
+  
+
+
+
+  
+
+
+
+Segment Anything Modelo 2
+        Tiene una memoria donde se guarda lo más importante
+        La memoria son parámetros que van guardando en el modelo
+  
+
+
+
+Si ya esta hecho reutilizar
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+Ultralytics
+        Tomo el desarrollo de YOLO
+        
+  
+
+
+
+Roboflow
+Plataforma de visión por computador
+Soporta todo el proceso        
+  
+
+
+
+  
+
+
+
+Código: train-yolov8-object-detection-on-custom-dataset.ipynb
+
+
+  
+
+Al finalizar el entrenamiento del modelo, guarda los pesos del mejor entrenamiento y el último
+  
+
+
+
+Al finalizar, revisar los datos del entrenamiento (graficos, pesos, etc)
+  
+
+
+
+  
+
+Accuracy, no sirve para entrenar porque no es derivable
+La función de pérdida tiene que ir de la mano, pero no es interpretativa
+Los errores de detección son:
+        Las imágenes del dataset no es variado
+        Pocas imágenes
+        El fondo de las imágenes son planas
+        
+  
+
+
+
+  
+
+
+
+Código: BBoxToSegment.ipynb
+        Pasa el dataset a un dataset de segmentación
+  
+
+
+
+Codigo: trains-yolov8-object-segmentation-on-custom-dtaset.ipynb
+        
+  
+
+
+
+  
+
+
+
+Dudas
+1. Detector y segmentación
+El detector indica la posición del objeto
+La segmentación devuelve los pixeles del objeto
+
+
+2. Roboflow tiene límites de uso
+No sabe
+
+
+3. Roboflow tiene dataset públicos
+La construcción del dataset es la parte más tediosa
+
+
+4. Autoetiquetado
+En AWS hay un algoritmo que permite hacer etiquetado automático
+También existe la opción manual (personas realizan el etiquetado)
+
+
+5. Herramienta de etiquetado
+  
+
+
+
+6. GPU calidad - precio
+Ocupar Colab lo más posible
+RTX 3060
+AMD no funciona muy bien
+
+
+Vocabulario
+1. PyTorch
+2. cuda
+3. gpu
+4. gpu vs cpu
+5. Autograd
+6. tensor
+7. clasificacion
+8. mnist
+8. deteccion
+9. viola jones
+10. Haar-like features
+11. AdaBoost
+12. Non-maximum suppression
+13. hog features + svm
+14. R-CNN
+15. Clasificacion SVM
+16. Fast-RCNN
+17. Faster-RCNN
+18. Mask-RCNN
+19. YOLO
+20. Joseph Redmon
+21. Darknet
+22. RetinaNet
+23. EfficienteNet
+24. Diferencia entre YOLO, RetinaNet, EfficentNet
+25. Train-mAP-FPS
+26. Dataset COCO
+27. Que significa 3x3x256
+28. Herramientas de etiquetado YOLO
+29. Segmentacion
+30. Thressholing-Clustering-Histogram
+31. Fully Convolutional Network-UNet-YOLACT
+32. Max pool y Up conv
+33. Segment Anything Model
+34. Dataset SA-1B
+35. encoder
+36. decoder
+37. Ultraytics
+38. Roboflow
+39. Gradiente de la funcion de coste
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
